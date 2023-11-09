@@ -1,0 +1,10 @@
+*.log
+.DS_Store
+node_modules
+!விநியோகம்
+.coverage
+.nyc_output
+.vscode
+.github
+சோதனை
+விநியோகம்/சோதனை
