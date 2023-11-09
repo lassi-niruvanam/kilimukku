@@ -11,7 +11,7 @@
     "test:électron-principal": "pnpm compiler && pnpm aegir test -f \"விநியோகம்/சோதனை/**/*.சோதனை.{js,cjs,mjs}\" -t electron-main --cov",
     "test:électron-rendu": "pnpm compiler && pnpm aegir test -f \"விநியோகம்/சோதனை/**/*.சோதனை.{js,cjs,mjs}\" -t electron-renderer --cov",
     "test": "pnpm test:node && pnpm test:navig",
-    "formatter": "pnpm prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\" && pnpm eslint --ext .js,.ts src சோதனை",
+    "formatter": "pnpm prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\" && pnpm eslint --ext .js,.ts மூலம் சோதனை",
     "publier": "pnpm versioner && pnpm compiler && (git commit -a -m 'version' || true) && pnpm publish",
     "versioner": "pnpm genversion  --es6 --semi src/பதிப்பு.ts"
   },
