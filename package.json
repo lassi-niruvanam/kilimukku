@@ -11,7 +11,7 @@
     "test:électron-principal": "pnpm compiler && pnpm aegir test -f \"விநியோகம்/சோதனை/**/*.சோதனை.{js,cjs,mjs}\" -t electron-main --cov",
     "test:électron-rendu": "pnpm compiler && pnpm aegir test -f \"விநியோகம்/சோதனை/**/*.சோதனை.{js,cjs,mjs}\" -t electron-renderer --cov",
     "test": "pnpm test:node && pnpm test:navig",
-    "formatter": "pnpm prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\" && pnpm eslint --ext .js,.ts src",
+    "formatter": "pnpm prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\" && pnpm eslint --ext .js,.ts src சோதனை",
     "publier": "pnpm versioner && pnpm compiler && (git commit -a -m 'version' || true) && pnpm publish",
     "versioner": "pnpm genversion  --es6 --semi src/பதிப்பு.ts"
   },
@@ -26,11 +26,14 @@
   "devDependencies": {
     "@types/mocha": "^10.0.4",
     "aegir": "^41.1.9",
+    "browserify-fs": "^1.0.0",
+    "buffer": "^6.0.3",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "genversion": "^3.1.1",
     "mocha": "^10.2.0",
     "prettier": "^3.0.3",
+    "process": "^0.11.10",
     "rimraf": "^5.0.5",
     "ts-patch": "^3.0.2",
     "typescript": "^5.2.2",
