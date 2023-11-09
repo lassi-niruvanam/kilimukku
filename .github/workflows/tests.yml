@@ -2,10 +2,10 @@ name: கிளிமூக்கு சோதனைகள்
 on:
   push:
     branches:
-      - principale
+      - main
   pull_request:
     branches:
-      - principale
+      - main
 jobs:
   sodanaikal:
     name: கிளிமூக்கு சோதனைகள்
