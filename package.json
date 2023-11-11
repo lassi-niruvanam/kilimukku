@@ -21,7 +21,7 @@
   "type": "module",
   "dependencies": {
     "@constl/ipa": "^0.9.13",
-    "@lassi-js/kili": "^0.3.2"
+    "@lassi-js/kili": "^0.3.3"
   },
   "devDependencies": {
     "@constl/utils-tests": "^0.2.2",
