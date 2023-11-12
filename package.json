@@ -21,10 +21,10 @@
   "type": "module",
   "dependencies": {
     "@constl/ipa": "^0.9.16",
-    "@lassi-js/kili": "^0.3.3"
+    "@lassi-js/kili": "^0.3.4"
   },
   "devDependencies": {
-    "@constl/utils-tests": "^0.2.2",
+    "@constl/utils-tests": "^0.2.3",
     "@types/mocha": "^10.0.4",
     "aegir": "^41.1.9",
     "browserify-fs": "^1.0.0",
