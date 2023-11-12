@@ -20,7 +20,7 @@
   "license": "AGPL-3.0-or-later",
   "type": "module",
   "dependencies": {
-    "@constl/ipa": "^0.9.13",
+    "@constl/ipa": "^0.9.16",
     "@lassi-js/kili": "^0.3.3"
   },
   "devDependencies": {

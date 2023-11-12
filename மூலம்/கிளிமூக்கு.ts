@@ -1,18 +1,17 @@
-import type { client, tableaux, types } from "@constl/ipa";
+import type { ClientConstellation, tableaux, types } from "@constl/ipa";
+import type { அங்கீகரிக்கப்பட்ட_உறுப்படி_வகை } from "@lassi-js/kili";
+import { கிளி } from "@lassi-js/kili";
 import {
   சாபி_நெடுவரிசை_அடையாளம்,
   இலக்கு_மொழி_நெடுவரிசை_அடையாளம்,
   மூல்_மொழி_நெடுவரிசை_அடையாளம்,
   மூல்_உரை_நெடுவரிசை_அடையாளம்,
   மொழிபெயர்ப்பு_நெடுவரிசை_அடையாளம்,
-  // விண்மீன்_மூல்_குழு_அடையாளம்,
+  விண்மீன்_மூல்_குழு_அடையாளம்,
   மொழிபெயர்ப்பு_அட்டவணை_சாபி,
   கிளிமூக்கு_தரவுத்தளம்_வார்ப்புரு,
-  விண்மீன்_மூல்_குழு_அடையாளம்,
 } from "./மாறிலிகள்.js";
-import { கிளி } from "@lassi-js/kili";
-import type { அங்கீகரிக்கப்பட்ட_உறுப்படி_வகை } from "@lassi-js/kili";
-import type { ClientConstellation } from "@constl/ipa";
+
 import {
   மொழிபெயர்ப்புகளை_ஒன்றாக்கு,
   மொழிபெயர்ப்பு_பட்டியலிலிருந்து_அகராதி,
@@ -26,6 +25,7 @@ import {
   முன்னேற்றம்_தகவல்கள்,
 } from "./வகைகள்.js";
 
+// @ts-ignore
 export class கிளிமூக்கு extends கிளி<மொழிபெயர்ப்பு_பரிந்துரை_உறுப்படி_வகை> {
   மூல்_மொழிபெயர்ப்புகள்: மொழிபெயர்ப்பு_அகராதி_வகை;
   மூல்_மொழி?: string;
@@ -56,7 +56,7 @@ export class கிளிமூக்கு extends கிளி<மொழிப
     விண்மீன், 
     பேற்றோர் = விண்மீன்_மூல்_குழு_அடையாளம்,
   }: {
-    விண்மீன்: client.default;
+    விண்மீன்: ClientConstellation;
     பேற்றோர்?: string;
   }): Promise<string> {
     const அடையாளம் = await கிளி.உருவாக்கு({
