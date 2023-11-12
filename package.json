@@ -21,7 +21,8 @@
   "type": "module",
   "dependencies": {
     "@constl/ipa": "^0.9.16",
-    "@lassi-js/kili": "^0.3.4"
+    "@lassi-js/kili": "^0.3.4",
+    "@achingbrain/nat-port-mapper": "1.0.8"
   },
   "devDependencies": {
     "@constl/utils-tests": "^0.2.3",
