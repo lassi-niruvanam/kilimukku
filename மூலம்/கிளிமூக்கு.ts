@@ -1,3 +1,4 @@
+import {v4 as uuidv4} from "uuid";
 import type { ClientConstellation, tableaux, types } from "@constl/ipa";
 import type {
   அங்கீகரிக்கப்பட்ட_உறுப்படி_வகை,
@@ -28,10 +29,10 @@ import {
   பிணையம்_மொழிபெயர்ப்பு_பரிந்துரை_வகை,
   முன்னேற்றம்_தகவல்கள்,
 } from "./வகைகள்.js";
-import { schémaFonctionOublier } from "@constl/ipa/dist/src/types.js";
 
 export class கிளிமூக்கு {
   மூல்_மொழிபெயர்ப்புகள்: மொழிபெயர்ப்பு_அகராதி_வகை;
+  தனித்துவமிக்க_அடையாளம்: string;
   மூல்_மொழி?: string;
   கிளி?: கிளி<மொழிபெயர்ப்பு_பரிந்துரை_உறுப்படி_வகை>;
 
@@ -46,6 +47,7 @@ export class கிளிமூக்கு {
     அடையாளம்?: string;
     மூல்_மொழி?: string;
   }) {
+    this.தனித்துவமிக்க_அடையாளம் = uuidv4()
     if (அடையாளம்) {
       if (!விண்மீன்) throw new Error();
       this.கிளி = new கிளி({
@@ -122,7 +124,7 @@ export class கிளிமூக்கு {
     };
     செ_கடைசி();
 
-    const மறந்துவிடு: schémaFonctionOublier[] = [];
+    const மறந்துவிடு: types.schémaFonctionOublier[] = [];
     if (this.கிளி) {
       const அங்கீகரிக்கப்பட்டவையை_மறந்துவிடு =
         await this.கிளி.அங்கீகரிக்கப்பட்ட_உறுப்படிகளை_கேள்ளு({
@@ -251,7 +253,7 @@ export class கிளிமூக்கு {
       return await செ(மொழிபெயர்ப்புகள்);
     };
 
-    const மறந்துவிடு: schémaFonctionOublier[] = [];
+    const மறந்துவிடு: types.schémaFonctionOublier[] = [];
     if (this.கிளி) {
       const மொழிபெயர்ப்புகளை_மறந்துவிடு =
         await this.கிளி.அங்கீகரிக்கப்பட்ட_உறுப்படிகளை_கேள்ளு({

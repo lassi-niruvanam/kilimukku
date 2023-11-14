@@ -20,13 +20,15 @@
   "license": "AGPL-3.0-or-later",
   "type": "module",
   "dependencies": {
+    "@achingbrain/nat-port-mapper": "1.0.8",
     "@constl/ipa": "^0.9.16",
     "@lassi-js/kili": "^0.3.4",
-    "@achingbrain/nat-port-mapper": "1.0.8"
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@constl/utils-tests": "^0.2.3",
     "@types/mocha": "^10.0.4",
+    "@types/uuid": "^9.0.7",
     "aegir": "^41.1.9",
     "browserify-fs": "^1.0.0",
     "buffer": "^6.0.3",
