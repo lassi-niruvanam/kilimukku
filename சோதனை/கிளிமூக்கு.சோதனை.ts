@@ -267,7 +267,7 @@ describe("கிளிமூக்கு", async () => {
       const மதிப்பு = await பரிந்துரைகள்.attendreQue((மொ) => மொ.length > 1);
       const அடையாளம் = மதிப்பு.find(ப => ப.பரிந்துரை.இலக்கு_மொழி === "ಕ")?.அடையாளம்;
       expect(அடையாளம்).to.exist();
-      expect(மதிப்பு).to.deep.include([
+      expect(மதிப்பு).to.deep.include.members([
         {
           பங்கேற்பாளர்: await விண்மீன்.obtIdCompte(),
           அடையாளம்,
