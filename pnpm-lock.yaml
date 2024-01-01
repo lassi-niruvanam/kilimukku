@@ -17,6 +17,9 @@ dependencies:
   uuid:
     specifier: ^9.0.1
     version: 9.0.1
+  wherearewe:
+    specifier: ^2.0.1
+    version: 2.0.1
 
 devDependencies:
   '@constl/utils-tests':
@@ -13397,7 +13400,7 @@ packages:
   /wide-align@1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
     dev: false
 
   /widest-line@4.0.1:
