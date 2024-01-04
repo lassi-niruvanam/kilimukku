@@ -5,7 +5,7 @@
   "main": "விநியோகம்/மூலம்/குறியீட்டு.js",
   "scripts": {
     "தூயமைப்படுத்து": "rimraf விநியோகம்",
-    "தொகுப்பு": "pnpm புதுப்பிப்பு && pnpm தூயமைப்படுத்து && pnpm tspc -p tsconfig.json",
+    "தொகுப்பு": "pnpm புதுப்பிப்பு && pnpm வடிவூட்டம் && pnpm தூயமைப்படுத்து && pnpm tspc -p tsconfig.json",
     "சோதனை:கணு": "pnpm தொகுப்பு && pnpm aegir test -t node -f \"விநியோகம்/சோதனை/**/*.சோதனை.{js,cjs,mjs}\" --cov -- --exit",
     "சோதனை:உலாவி": "pnpm தொகுப்பு && pnpm aegir test -t browser -f \"விநியோகம்/சோதனை/**/*.சோதனை.{js,cjs,mjs}\" --cov",
     "சோதனை:எதிர்மின்னி-மத்தியமானது": "pnpm தொகுப்பு && pnpm aegir test -t electron-main -f \"விநியோகம்/சோதனை/**/*.சோதனை.{js,cjs,mjs}\" --cov",
