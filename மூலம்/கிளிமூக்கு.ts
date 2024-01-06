@@ -334,7 +334,6 @@ export class கிளிமூக்கு {
         (
           await this.மொழிபெயர்ப்பு_பரிந்துரைகளை_கேள்ளு({
             செ: async (ப) => {
-              console.log("ici", ப);
               தகவல்கள்.பரிந்துரைகள் = ப;
               await செ_கடைசி();
             },
@@ -361,7 +360,6 @@ export class கிளிமூக்கு {
 
     return await this.கிளி.பரிந்துரைகளை_கேள்ளு({
       செ: async (பரிந்துரைகள்) => {
-        console.log(பரிந்துரைகள்);
         return await செ(
           பரிந்துரைகள்
             .filter(
