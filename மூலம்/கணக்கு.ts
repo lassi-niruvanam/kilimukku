@@ -1,0 +1,73 @@
+import type { ClientConstellation, types } from "@constl/ipa";
+
+import type { மொழிபெயர்ப்பு_அகராதி_வகை } from "./வகைகள்.js";
+
+import { கிளிமூக்கு } from "./கிளிமூக்கு.js";
+import { கிளிமூக்கு_மூல்_கூட்ட_அடையாளம் } from "./மாறிலிகள்.js";
+
+export class கணக்கு {
+  _விண்மீன்?: ClientConstellation;
+  மூல்_கூட்டம்_அடையாளம்: string;
+
+  constructor({ விண்மீன், மூல்_கூட்டம்_அடையாளம்=கிளிமூக்கு_மூல்_கூட்ட_அடையாளம் }: { விண்மீன்?: ClientConstellation, மூல்_கூட்டம்_அடையாளம்?: string }) {
+    this._விண்மீன் = விண்மீன்;
+    this.மூல்_கூட்டம்_அடையாளம் = மூல்_கூட்டம்_அடையாளம்
+  }
+
+  get விண்மீன்(): ClientConstellation {
+    if (!this._விண்மீன்)
+      throw new Error(
+        "இந்த செயலியைப் பயன்படுகிறதற்கு கிளிமூக்கு கணக்கை விண்மீனுடன் துவக்கவும்: `new கணக்கு({ விண்மீன் })`",
+      );
+    return this._விண்மீன்;
+  }
+
+  async திட்டத்தை_உருவாக்கு({
+    பேற்றோர்,
+  }: {
+    பேற்றோர்?: string;
+  }): Promise<string> {
+    return await கிளிமூக்கு.உருவாக்கு({
+      விண்மீன்: this.விண்மீன்,
+      பேற்றோர்: பேற்றோர் || this.மூல்_கூட்டம்_அடையாளம்,
+    });
+  }
+
+  திட்டத்தை_திற({
+    அடையாளம்,
+    மூல்_மொழிபெயர்ப்புகள்,
+    மூல்_மொழி,
+  }: {
+    அடையாளம்: string;
+    மூல்_மொழிபெயர்ப்புகள்?: மொழிபெயர்ப்பு_அகராதி_வகை;
+    மூல்_மொழி?: string;
+  }): கிளிமூக்கு {
+    return new கிளிமூக்கு({
+      விண்மீன்: this.விண்மீன்,
+      மூல்_மொழிபெயர்ப்புகள்,
+      மூல்_மொழி,
+      அடையாளம்,
+    });
+  }
+
+  async என்_திட்டங்களைக்_கேள்ளு({
+    செ,
+    எத்தனை = 1000,
+  }: {
+    அடையாளம்: string;
+    செ: types.schémaFonctionSuivi<string[]>;
+    எத்தனை?: number;
+  }): Promise<types.schémaRetourFonctionRechercheParN> {
+    return await this.விண்மீன்.nuées.rechercherNuéesDéscendantes({
+      idNuée: this.மூல்_கூட்டம்_அடையாளம்,
+      f: செ,
+      nRésultatsDésirés: எத்தனை,
+    });
+  }
+
+  async திட்டத்தை_நீக்கு({ அடையாளம் }: { அடையாளம்: string }) {
+    if (this.விண்மீன்) {
+      await this.விண்மீன்.nuées.effacerNuée({ idNuée: அடையாளம் });
+    }
+  }
+}
