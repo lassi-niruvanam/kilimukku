@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.9.25
     version: 0.9.25(wrtc@0.4.7)
   '@constl/utils-ipa':
-    specifier: ^0.2.4
-    version: 0.2.4
+    specifier: ^1.0.0
+    version: 1.0.0
   '@lassi-js/kili':
     specifier: ^0.3.6
     version: 0.3.6(@constl/ipa@0.9.25)
@@ -1187,6 +1187,25 @@ packages:
       '@achingbrain/nat-port-mapper': 1.0.8
       '@chriscdn/promise-semaphore': 2.0.9
       '@orbitdb/core': 1.0.2
+      browser-fs-access: 0.35.0
+      deep-equal: 2.2.3
+      events: 3.3.0
+      genversion: 3.2.0
+      jszip: 3.10.1
+      multiformats: 9.9.0
+      rimraf: 5.0.5
+      uint8arrays: 4.0.10
+      wherearewe: 2.0.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /@constl/utils-ipa@1.0.0:
+    resolution: {integrity: sha512-saDMdbk/PYu9R800/wjI1784hz4hQdC4utAoSNYq3R2UrWxiAN98s1frOHZNV2y5Jwc7T/Lvj7OxuJ6MO3o4+Q==}
+    engines: {node: '>=20'}
+    dependencies:
+      '@achingbrain/nat-port-mapper': 1.0.8
+      '@chriscdn/promise-semaphore': 2.0.9
       browser-fs-access: 0.35.0
       deep-equal: 2.2.3
       events: 3.3.0
@@ -13323,7 +13342,7 @@ packages:
   /wide-align@1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
     dev: false
 
   /winston@2.4.7:
