@@ -28,7 +28,7 @@
     "wherearewe": "^2.0.1"
   },
   "devDependencies": {
-    "@constl/utils-tests": "^0.2.3",
+    "@constl/utils-tests": "^1.0.0",
     "@types/mocha": "^10.0.6",
     "@types/uuid": "^9.0.7",
     "aegir": "^42.2.2",
