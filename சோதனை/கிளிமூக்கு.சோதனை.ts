@@ -2,8 +2,8 @@ import { expect } from "aegir/chai";
 
 import { isBrowser } from "wherearewe";
 
-import { ClientConstellation, générerClient } from "@constl/ipa";
-import { client, attente } from "@constl/utils-tests";
+import { ClientConstellation, créerConstellation } from "@constl/ipa";
+import { constellation, attente } from "@constl/utils-tests";
 import {
   கிளிமூக்கு,
   பிணையம்_மொழிபெயர்ப்பு_பரிந்துரை_வகை,
@@ -12,7 +12,7 @@ import {
 } from "@/குறியீட்டு.js";
 import { uneFois } from "@constl/utils-ipa";
 
-const { générerClients } = client;
+const { créerConstellationsTest } = constellation;
 
 const தயாரிப்பு = async ({
   விண்மீன்,
@@ -37,7 +37,10 @@ describe("கிளிமூக்கு", async () => {
 
   before(async () => {
     const { clients: வாடிக்கையாளர்கள், fOublier: விண்மீனை_மறந்துவிடு } =
-      await générerClients({ n: isBrowser ? 1 : 2, générerClient });
+      await créerConstellationsTest({
+        n: isBrowser ? 1 : 2,
+        créerConstellation,
+      });
     மறந்துவிடு.push(விண்மீனை_மறந்துவிடு);
     விண்மீன் = வாடிக்கையாளர்கள்[0];
     வேறு_விண்மீன் = வாடிக்கையாளர்கள்[isBrowser ? 0 : 1];
@@ -267,8 +270,9 @@ describe("கிளிமூக்கு", async () => {
         மூல்_உரை: "மொழிபெயர்ப்பு",
       });
       const மதிப்பு = await பரிந்துரைகள்.attendreQue((மொ) => மொ.length > 1);
-      const அடையாளம் = மதிப்பு.find((ப) => ப.பரிந்துரை.இலக்கு_மொழி === "ಕ")
-        ?.அடையாளம்;
+      const அடையாளம் = மதிப்பு.find(
+        (ப) => ப.பரிந்துரை.இலக்கு_மொழி === "ಕ",
+      )?.அடையாளம்;
       expect(அடையாளம்).to.exist();
       expect(மதிப்பு).to.deep.include.members([
         {
@@ -384,8 +388,9 @@ describe("கிளிமூக்கு", async () => {
         மூல்_உரை: "மொழிபெயர்ப்பு",
       });
       const மதிப்பு = await என்_பரிந்துரைகள்.attendreQue((மொ) => மொ.length > 1);
-      const அடையாளம் = மதிப்பு.find((ப) => ப.பரிந்துரை.இலக்கு_மொழி === "ಕ")
-        ?.அடையாளம்;
+      const அடையாளம் = மதிப்பு.find(
+        (ப) => ப.பரிந்துரை.இலக்கு_மொழி === "ಕ",
+      )?.அடையாளம்;
       expect(அடையாளம்).to.exist();
       expect(மதிப்பு).to.deep.include.members([
         {

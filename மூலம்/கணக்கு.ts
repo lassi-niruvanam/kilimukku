@@ -9,9 +9,15 @@ export class கணக்கு {
   _விண்மீன்?: ClientConstellation;
   மூல்_கூட்டம்_அடையாளம்: string;
 
-  constructor({ விண்மீன், மூல்_கூட்டம்_அடையாளம்=கிளிமூக்கு_மூல்_கூட்ட_அடையாளம் }: { விண்மீன்?: ClientConstellation, மூல்_கூட்டம்_அடையாளம்?: string }) {
+  constructor({
+    விண்மீன்,
+    மூல்_கூட்டம்_அடையாளம் = கிளிமூக்கு_மூல்_கூட்ட_அடையாளம்,
+  }: {
+    விண்மீன்?: ClientConstellation;
+    மூல்_கூட்டம்_அடையாளம்?: string;
+  }) {
     this._விண்மீன் = விண்மீன்;
-    this.மூல்_கூட்டம்_அடையாளம் = மூல்_கூட்டம்_அடையாளம்
+    this.மூல்_கூட்டம்_அடையாளம் = மூல்_கூட்டம்_அடையாளம்;
   }
 
   get விண்மீன்(): ClientConstellation {
@@ -26,14 +32,14 @@ export class கணக்கு {
     பேற்றோர்,
   }: {
     பேற்றோர்?: string;
-  }): Promise<string> {
+  } = {}): Promise<string> {
     return await கிளிமூக்கு.உருவாக்கு({
       விண்மீன்: this.விண்மீன்,
       பேற்றோர்: பேற்றோர் || this.மூல்_கூட்டம்_அடையாளம்,
     });
   }
 
-  திட்டத்தை_திற({
+  திட்டத்தைத்_திற({
     அடையாளம்,
     மூல்_மொழிபெயர்ப்புகள்,
     மூல்_மொழி,
@@ -52,16 +58,24 @@ export class கணக்கு {
 
   async என்_திட்டங்களைக்_கேள்ளு({
     செ,
-    எத்தனை = 1000,
   }: {
-    அடையாளம்: string;
     செ: types.schémaFonctionSuivi<string[]>;
-    எத்தனை?: number;
   }): Promise<types.schémaRetourFonctionRechercheParN> {
     return await this.விண்மீன்.nuées.rechercherNuéesDéscendantes({
       idNuée: this.மூல்_கூட்டம்_அடையாளம்,
       f: செ,
-      nRésultatsDésirés: எத்தனை,
+      // toutLeRéseau: false,
+    });
+  }
+
+  async நான்_பங்களிக்கும்_திட்டங்களை_கேள்ளு({
+    செ,
+  }: {
+    செ: types.schémaFonctionSuivi<string[]>;
+  }): Promise<types.schémaFonctionOublier> {
+    return await this.விண்மீன்.bds.rechercherBdsParNuée({
+      idNuée: this.மூல்_கூட்டம்_அடையாளம்,
+      f: செ,
     });
   }
 

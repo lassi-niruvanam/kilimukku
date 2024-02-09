@@ -21,14 +21,14 @@
   "type": "module",
   "dependencies": {
     "@achingbrain/nat-port-mapper": "1.0.8",
-    "@constl/ipa": "^0.9.25",
-    "@constl/utils-ipa": "^0.2.4",
-    "@lassi-js/kili": "^0.3.6",
+    "@constl/ipa": "1.0.1-76af3ada9.0",
+    "@constl/utils-ipa": "^1.0.0",
+    "@lassi-js/kili": "0.3.7-6e0bcf1.0",
     "uuid": "^9.0.1",
     "wherearewe": "^2.0.1"
   },
   "devDependencies": {
-    "@constl/utils-tests": "^0.2.3",
+    "@constl/utils-tests": "^1.1.0",
     "@types/mocha": "^10.0.6",
     "@types/uuid": "^9.0.7",
     "aegir": "^42.2.2",
