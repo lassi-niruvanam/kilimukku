@@ -30,4 +30,4 @@ jobs:
           git commit package.json -m "முத்திரை அடுத்தது"
           pnpm publish --tag அடுத்தது
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NPM_AUTH_TOKEN: ${{secrets.npm_token}}
