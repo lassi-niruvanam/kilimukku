@@ -15,8 +15,8 @@ describe.skip("கணக்கு", async () => {
   let என்_கணக்கு: கணக்கு;
   let மற்றவரின்_கணக்கு: கணக்கு;
 
-  const என்_திட்டங்கள் = new attente.AttendreRésultat();
-  const நான்_பங்களிக்கும்_திட்டங்கள் = new attente.AttendreRésultat();
+  const என்_திட்டங்கள் = new attente.AttendreRésultat<string[]>();
+  const நான்_பங்களிக்கும்_திட்டங்கள் = new attente.AttendreRésultat<string[]>();
 
   const மறந்துவிடு: (() => Promise<void>)[] = [];
 
