@@ -1,10 +1,10 @@
 ---
-name: Node.js Package (next tag)
+name: npm வெளியீடு (முத்திரை - அடுத்தது)
 
-on:
-  push:
-    branches:
-      - main
+on: [ workflow_call ]
+concurrency:
+  group: npm-suivant-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   publish-npm:
@@ -20,7 +20,7 @@ jobs:
         with:
           version: latest
       - run: pnpm install
-      - run: pnpm சோதனை
+      - run: pnpm தொகுப்பு
       - run: git config --global user.email "bot@example.com"
       - run: git config --global user.name "Github Action"
       - run: |

@@ -1,0 +1,43 @@
+name: கிளிமூக்கு
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - 'renovate/**'
+    tags:
+      - v*
+    paths-ignore:
+      - '.github/**'
+      - '!.github/workflows/ci.yml'
+      - '!.github/workflows/npm-publish-next.yml'
+      - '!.github/workflows/tests.yml'
+      - '**.md'
+      - .editorconfig
+      - .gitignore
+      - '.idea/**'
+      - '.vscode/**'
+  pull_request:
+    paths-ignore:
+      - '.github/**'
+      - '!.github/workflows/ci.yml'
+      - '!.github/workflows/npm-publish-next.yml'
+      - '!.github/workflows/tests.yml'
+      - '**.md'
+      - .editorconfig
+      - .gitignore
+      - '.idea/**'
+      - '.vscode/**'
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    uses: ./.github/workflows/tests.yml
+  publier_npm_suivant:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    uses: ./.github/workflows/npm-publish-next.yml
+    needs: [ tests ]

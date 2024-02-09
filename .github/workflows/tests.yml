@@ -1,11 +1,11 @@
 name: கிளிமூக்கு சோதனைகள்
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+
+on: [ workflow_call ]
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   sodanaikal:
     name: கிளிமூக்கு சோதனைகள்
