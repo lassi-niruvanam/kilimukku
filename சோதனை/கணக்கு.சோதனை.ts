@@ -60,7 +60,9 @@ describe.skip("கணக்கு", async () => {
       மொழிபெயர்ப்பு: "இதோ",
       இலக்கு_மொழி: "த",
     });
-    const மதிப்பு = await நான்_பங்களிக்கும்_திட்டங்கள்.attendreQue(இ=>இ.length > 0);
+    const மதிப்பு = await நான்_பங்களிக்கும்_திட்டங்கள்.attendreQue(
+      (இ) => இ.length > 0,
+    );
     expect(மதிப்பு).to.have.deep.members([அடையாளம்]);
   });
 
