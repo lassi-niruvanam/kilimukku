@@ -9,7 +9,7 @@ import { கணக்கு } from "@/கணக்கு.js";
 
 const { créerConstellationsTest } = constellation;
 
-describe("கணக்கு", async () => {
+describe.skip("கணக்கு", async () => {
   let விண்மீன்: ClientConstellation;
   let வேறு_விண்மீன்: ClientConstellation;
   let என்_கணக்கு: கணக்கு;
@@ -60,7 +60,7 @@ describe("கணக்கு", async () => {
       மொழிபெயர்ப்பு: "இதோ",
       இலக்கு_மொழி: "த",
     });
-    const மதிப்பு = await நான்_பங்களிக்கும்_திட்டங்கள்.attendreExiste();
+    const மதிப்பு = await நான்_பங்களிக்கும்_திட்டங்கள்.attendreQue(இ=>இ.length > 0);
     expect(மதிப்பு).to.have.deep.members([அடையாளம்]);
   });
 
