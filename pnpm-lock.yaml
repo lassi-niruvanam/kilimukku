@@ -15,8 +15,8 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0
   '@lassi-js/kili':
-    specifier: 0.3.7-6e0bcf1.0
-    version: 0.3.7-6e0bcf1.0(@constl/ipa@1.0.1-76af3ada9.0)
+    specifier: 0.3.9
+    version: 0.3.9(@constl/ipa@1.0.1-76af3ada9.0)
   uuid:
     specifier: ^9.0.1
     version: 9.0.1
@@ -1710,8 +1710,6 @@ packages:
       uint8arraylist: 2.4.8
       uint8arrays: 5.0.2
       wherearewe: 2.0.1
-    transitivePeerDependencies:
-      - supports-color
 
   /@chainsafe/libp2p-yamux@6.0.2:
     resolution: {integrity: sha512-S5OkLHqYhEVMQQ4BTgnRANEIbGTQhaC23glCgBwGdeoTRtMpIozwDiPfljFLCm0RYWdCRJw9oFztO95KUHjptA==}
@@ -1786,7 +1784,7 @@ packages:
       '@helia/block-brokers': 2.0.1
       '@helia/unixfs': 3.0.0
       '@ipld/dag-cbor': 9.1.0
-      '@lassi-js/kili': 0.3.6(@constl/ipa@1.0.1-76af3ada9.0)
+      '@lassi-js/kili': 0.3.9(@constl/ipa@1.0.1-76af3ada9.0)
       '@libp2p/bootstrap': 10.0.15
       '@libp2p/circuit-relay-v2': 1.0.15
       '@libp2p/identify': 1.0.14
@@ -1846,26 +1844,6 @@ packages:
     dependencies:
       events: 3.3.0
       uuid: 9.0.1
-    dev: false
-
-  /@constl/utils-ipa@0.2.4:
-    resolution: {integrity: sha512-NYhqmuxMBXkSiuaSirDbclTw6bl7H9HPEbYkNvYmVzJ1HLfhhyMy3OhUhXtl0sDOCnt0/oRqAjsyiu5kRvoYPw==}
-    engines: {node: '>=20'}
-    dependencies:
-      '@achingbrain/nat-port-mapper': 1.0.8
-      '@chriscdn/promise-semaphore': 2.0.9
-      '@orbitdb/core': 1.0.2
-      browser-fs-access: 0.35.0
-      deep-equal: 2.2.3
-      events: 3.3.0
-      genversion: 3.2.0
-      jszip: 3.10.1
-      multiformats: 9.9.0
-      rimraf: 5.0.5
-      uint8arrays: 4.0.10
-      wherearewe: 2.0.1
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /@constl/utils-ipa@1.0.0:
@@ -2470,6 +2448,8 @@ packages:
       interface-store: 5.1.7
       multiformats: 13.0.1
       progress-events: 1.0.0
+    transitivePeerDependencies:
+      - supports-color
 
   /@helia/unixfs@3.0.0:
     resolution: {integrity: sha512-jguVr8823VHqpADroEilHOqS/GsZBlQcMsxnN4P4bqKw+DIPAqsCt56qdSXZgHEwyMB5UpYsPoX5pzaZ7NpB7A==}
@@ -2658,26 +2638,11 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@lassi-js/kili@0.3.6(@constl/ipa@1.0.1-76af3ada9.0):
-    resolution: {integrity: sha512-tahzK8iaCfg/sNAqbZKnow5W1PoQDXiTBXvFkTUqwn6zPbbvY/a8L6kDWm6ZwWqWQ4VupqC59kMSslLgGuNOAA==}
+  /@lassi-js/kili@0.3.9(@constl/ipa@1.0.1-76af3ada9.0):
+    resolution: {integrity: sha512-/EnrM0HUOUwt/gMNUa4ExqETD4QhDFPd4tQsMmwxXx2f1tJkulbHuPQk+B5w0CgHf1Qj71bskTgWDY9R70/xJw==}
     peerDependencies:
-      '@constl/ipa': ^0.9.15
+      '@constl/ipa': 1.0.0
     dependencies:
-      '@achingbrain/nat-port-mapper': 1.0.8
-      '@constl/ipa': 1.0.1-76af3ada9.0(react-native@0.73.4)(wrtc@0.4.7)
-      '@constl/utils-ipa': 0.2.4
-      '@orbitdb/core': 1.0.2
-      deepcopy: 2.1.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
-
-  /@lassi-js/kili@0.3.7-6e0bcf1.0(@constl/ipa@1.0.1-76af3ada9.0):
-    resolution: {integrity: sha512-LDlVNgcOZeg13RSupOoiJuyRRvk1QzZGtJSG18ZgGU6xzlXPHbftOq1UBJADUdktTtRzn5O9lnp3FVPP1/yI1Q==}
-    peerDependencies:
-      '@constl/ipa': ^0.9.15
-    dependencies:
-      '@achingbrain/nat-port-mapper': 1.0.8
       '@constl/ipa': 1.0.1-76af3ada9.0(react-native@0.73.4)(wrtc@0.4.7)
       '@constl/utils-ipa': 1.0.0
       '@orbitdb/core': 2.0.1
@@ -2749,7 +2714,7 @@ packages:
       '@noble/hashes': 1.3.3
       multiformats: 12.1.3
       node-forge: 1.3.1
-      protons-runtime: 5.2.2
+      protons-runtime: 5.4.0
       uint8arraylist: 2.4.8
       uint8arrays: 4.0.10
     transitivePeerDependencies:
@@ -2778,8 +2743,6 @@ packages:
       protons-runtime: 5.4.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.0.2
-    transitivePeerDependencies:
-      - supports-color
 
   /@libp2p/dcutr@1.0.12:
     resolution: {integrity: sha512-2fpk2UUpcsVF/oiBymLMvbyBnR3Zma1cdv/HBMLNO2R0SpMYIHV9RmLJM4PVNyTaVGWul0NOQqBteRFfstTMmA==}
@@ -2973,8 +2936,6 @@ packages:
       multiformats: 13.0.1
       sanitize-filename: 1.6.3
       uint8arrays: 5.0.2
-    transitivePeerDependencies:
-      - supports-color
 
   /@libp2p/logger@2.1.1:
     resolution: {integrity: sha512-2UbzDPctg3cPupF6jrv6abQnAUTrbLybNOj0rmmrdGm1cN2HJ1o/hBu0sXuq4KF9P1h/eVRn1HIRbVIEKnEJrA==}
@@ -3067,8 +3028,6 @@ packages:
       protons-runtime: 5.4.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.0.2
-    transitivePeerDependencies:
-      - supports-color
 
   /@libp2p/peer-id@3.0.6:
     resolution: {integrity: sha512-iN1Ia5gH2U1V/GOVRmLHmVY6fblxzrOPUoZrMYjHl/K4s+AiI7ym/527WDeQvhQpD7j3TfDwcAYforD2dLGpLw==}
@@ -3620,23 +3579,6 @@ packages:
   /@opentelemetry/api@1.7.0:
     resolution: {integrity: sha512-AdY5wvN0P2vXBi3b29hxZgSFvdhdxPB9+f0B6s//P9Q8nibRWeA3cHm8UmLpio9ABigkVHJ5NMPk+Mz8VCCyrw==}
     engines: {node: '>=8.0.0'}
-    dev: false
-
-  /@orbitdb/core@1.0.2:
-    resolution: {integrity: sha512-ztSGubXNpzYlcNBqh598rJTAgDQ0w9sK/SpJ/X52Al1M5PqVkMsHod54PobYWQ9t7TY2BNoFFuQt3wI5SWrchg==}
-    engines: {node: '>=16.0.0'}
-    dependencies:
-      '@ipld/dag-cbor': 9.1.0
-      '@libp2p/crypto': 2.0.8
-      it-pipe: 3.0.1
-      level: 8.0.1
-      lru: 3.1.0
-      multiformats: 12.1.3
-      p-queue: 7.4.1
-      timeout-abort-controller: 3.0.0
-      uint8arrays: 4.0.10
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /@orbitdb/core@2.0.1:
@@ -6935,7 +6877,7 @@ packages:
       '@constl/ipa': ^0.9.6
     dependencies:
       '@constl/ipa': 1.0.1-76af3ada9.0(react-native@0.73.4)(wrtc@0.4.7)
-      '@lassi-js/kili': 0.3.6(@constl/ipa@1.0.1-76af3ada9.0)
+      '@lassi-js/kili': 0.3.9(@constl/ipa@1.0.1-76af3ada9.0)
       deepmerge: 4.3.1
       events: 3.3.0
     transitivePeerDependencies:
@@ -8797,7 +8739,7 @@ packages:
     resolution: {integrity: sha512-D8RuxMdjOPB+j6WMDJ+I2aXTDzUT6DIVjgzo1E+ODL7w8WrSFl9FXD2SYmgj6vVzdb7Kb5qmAI9pEnDZJz7ifg==}
     dependencies:
       interface-store: 5.1.7
-      uint8arrays: 5.0.1
+      uint8arrays: 5.0.2
 
   /interface-store@5.1.7:
     resolution: {integrity: sha512-DVMTgZ43NAdDtXL3QsEq8N0vuUYVBxiGbxN0uI0lrNasuX/CGSrU7bjOO2DaGTMNut4Pt3ae+VQYFvNtH4Oyeg==}
@@ -9452,7 +9394,7 @@ packages:
       it-stream-types: 2.0.1
       uint8-varint: 2.0.3
       uint8arraylist: 2.4.8
-      uint8arrays: 5.0.1
+      uint8arrays: 5.0.2
 
   /it-length@3.0.4:
     resolution: {integrity: sha512-RS3thYkvqtWksrV7SaAnTv+pgY7ozpS17HlRvWvcnoRjVyNJMuffdCkIKpKNPTq5uZw9zVnkVKLO077pJn5Yhg==}
@@ -12588,12 +12530,6 @@ packages:
       '@types/node': 20.11.5
       long: 5.2.3
 
-  /protons-runtime@5.2.2:
-    resolution: {integrity: sha512-o97rNPN9pE3cxOxjs/waZNRKlbY/DR11oc20rUvarWZgFzQLLLzJU0RFh5JPi6GJCN67VGVn9/FDIEtFblfB3A==}
-    dependencies:
-      uint8arraylist: 2.4.8
-      uint8arrays: 5.0.1
-
   /protons-runtime@5.4.0:
     resolution: {integrity: sha512-XfA++W/WlQOSyjUyuF5lgYBfXZUEMP01Oh1C2dSwZAlF2e/ZrMRPfWonXj6BGM+o8Xciv7w0tsRMKYwYEuQvaw==}
     dependencies:
@@ -14432,7 +14368,7 @@ packages:
     resolution: {integrity: sha512-seXTM8ba4uuAMDgi3UHXPdDxCBKjWWZigW+F+1ESPhOZv9ekT1qmbdzYHLSNA+u+wHj10P55dQ41y2Qh7NOqiA==}
     dependencies:
       uint8arraylist: 2.4.8
-      uint8arrays: 5.0.1
+      uint8arrays: 5.0.2
 
   /uint8-varint@2.0.4:
     resolution: {integrity: sha512-FwpTa7ZGA/f/EssWAb5/YV6pHgVF1fViKdW8cWaEarjB8t7NyofSWBdOTyFPaGuUG4gx3v1O3PQ8etsiOs3lcw==}

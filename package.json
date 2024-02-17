@@ -23,7 +23,7 @@
     "@achingbrain/nat-port-mapper": "1.0.8",
     "@constl/ipa": "1.0.1-76af3ada9.0",
     "@constl/utils-ipa": "^1.0.0",
-    "@lassi-js/kili": "0.3.7-6e0bcf1.0",
+    "@lassi-js/kili": "0.3.9",
     "uuid": "^9.0.1",
     "wherearewe": "^2.0.1"
   },
