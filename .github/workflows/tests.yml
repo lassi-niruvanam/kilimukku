@@ -31,4 +31,4 @@ jobs:
         run: pnpm சோதனை
 
       - name: Envoyer couverure à Codecov
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v4
