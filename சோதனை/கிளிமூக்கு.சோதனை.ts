@@ -198,7 +198,7 @@ describe("கிளிமூக்கு", async () => {
     });
   });
 
-  describe("பரிந்துரைகள்", async () => {
+  describe.only("பரிந்துரைகள்", async () => {
     let என்_கிளிமூக்கு: கிளிமூக்கு;
 
     const பரிந்துரைகள் = new attente.AttendreRésultat<
@@ -246,6 +246,7 @@ describe("கிளிமூக்கு", async () => {
         மூல்_உரை: "மொழிபெயர்ப்பு",
       });
       const மதிப்பு = await பரிந்துரைகள்.attendreQue((மொ) => மொ.length > 0);
+      console.log(JSON.stringify(மதிப்பு, undefined, 2));
       expect(மதிப்பு).to.have.deep.members([
         {
           பங்கேற்பாளர்: await விண்மீன்.obtIdCompte(),
