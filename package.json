@@ -1,6 +1,6 @@
 {
   "name": "@lassi-js/kilimukku",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "விநியோகிக்கப்பட்ட மொழிபெயர்ப்புகள்",
   "main": "விநியோகம்/மூலம்/குறியீட்டு.js",
   "scripts": {
@@ -20,30 +20,30 @@
   "license": "AGPL-3.0-or-later",
   "type": "module",
   "dependencies": {
-    "@constl/ipa": "^1.0.1",
+    "@constl/ipa": "^1.0.7",
     "@constl/utils-ipa": "^1.0.0",
     "@lassi-js/kili": "0.3.10",
     "uuid": "^9.0.1",
     "wherearewe": "^2.0.1"
   },
   "devDependencies": {
-    "@constl/utils-tests": "^1.2.3",
+    "@constl/utils-tests": "^1.2.5",
     "@types/mocha": "^10.0.6",
     "@types/uuid": "^9.0.8",
-    "aegir": "^42.2.4",
+    "aegir": "^42.2.5",
     "browserify-fs": "^1.0.0",
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "genversion": "^3.2.0",
-    "mocha": "^10.3.0",
+    "mocha": "^10.4.0",
     "os-browserify": "^0.3.0",
     "prettier": "^3.2.5",
     "process": "^0.11.10",
     "rimraf": "^5.0.5",
     "ts-patch": "^3.1.2",
-    "typescript": "^5.3.3",
+    "typescript": "^5.4.3",
     "typescript-transform-paths": "^3.4.7"
   }
 }
