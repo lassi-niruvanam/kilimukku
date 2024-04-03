@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@constl/ipa':
-    specifier: ^1.0.7
-    version: 1.0.7(react-native@0.73.6)(wrtc@0.4.7)
+    specifier: ^1.0.9
+    version: 1.0.9(react-native@0.73.6)(wrtc@0.4.7)
   '@constl/utils-ipa':
     specifier: ^1.0.0
     version: 1.0.0
   '@lassi-js/kili':
     specifier: 0.3.10
-    version: 0.3.10(@constl/ipa@1.0.7)
+    version: 0.3.10(@constl/ipa@1.0.9)
   uuid:
     specifier: ^9.0.1
     version: 9.0.1
@@ -1609,8 +1609,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@constl/ipa@1.0.7(react-native@0.73.6)(wrtc@0.4.7):
-    resolution: {integrity: sha512-n7Cixa1Lc+1RXKVHHZXOiK5d+NhMSWzudYbwNApYGTkONvTGX6F3wDfkbDIjakwoUJ3/vHx1gL2BQ3hJPbcD5A==}
+  /@constl/ipa@1.0.9(react-native@0.73.6)(wrtc@0.4.7):
+    resolution: {integrity: sha512-M+xWmtdZ/LSk2QKAt/qWoAtXesJJyu4uFBl6k3hz3yXhaMNTx1EVSxqTSdH/wSC2lg9WwwYBplqhmEtmDIj99g==}
     engines: {node: '>=20'}
     peerDependencies:
       wrtc: ^0.4.7
@@ -1620,12 +1620,12 @@ packages:
       '@chainsafe/libp2p-yamux': 6.0.2
       '@chriscdn/promise-semaphore': 2.0.9
       '@constl/bohr-db': 1.1.0(react-native@0.73.6)
-      '@constl/mandataire': 0.1.16
+      '@constl/mandataire': 1.0.1
       '@constl/utils-ipa': 1.0.0
       '@helia/block-brokers': 2.0.3
       '@helia/unixfs': 3.0.2
       '@ipld/dag-cbor': 9.2.0
-      '@lassi-js/kili': 0.3.10(@constl/ipa@1.0.7)
+      '@lassi-js/kili': 0.3.10(@constl/ipa@1.0.9)
       '@libp2p/autonat': 1.0.14
       '@libp2p/bootstrap': 10.0.17
       '@libp2p/circuit-relay-v2': 1.0.17
@@ -1655,7 +1655,7 @@ packages:
       crypto-js: 4.2.0
       deep-equal: 2.2.3
       deepcopy: 2.1.0
-      ennikkai: 2.2.7(@constl/ipa@1.0.7)
+      ennikkai: 2.2.7(@constl/ipa@1.0.9)
       env-paths: 3.0.0
       events: 3.3.0
       genversion: 3.2.0
@@ -1687,8 +1687,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@constl/mandataire@0.1.16:
-    resolution: {integrity: sha512-cOOgRR9KB86JRi873/KoTnMsxeUVJg4rODgRJxoc9Ar6XUArzLinEZVYHu9KchcNWZpDCQbZdIPvvW4F9oG7kA==}
+  /@constl/mandataire@1.0.1:
+    resolution: {integrity: sha512-pXFP2ha5llHEgTF21cLjpoJrRKzBoqtTB/z55krTnxvexagHRHM810iSBv4DbfwJwRkRWhbeIbgoXaXCYrl/xg==}
     dependencies:
       events: 3.3.0
       uuid: 9.0.1
@@ -2515,12 +2515,12 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@lassi-js/kili@0.3.10(@constl/ipa@1.0.7):
+  /@lassi-js/kili@0.3.10(@constl/ipa@1.0.9):
     resolution: {integrity: sha512-TC0dwRgPsK6AoVpTyTa7lgVZpkD5JH+W/Z/InoNc5pNSKHwfDONMc3+CphHvos5cB/KHV4cinCbuKrHOlkEthA==}
     peerDependencies:
       '@constl/ipa': ^1.0.5
     dependencies:
-      '@constl/ipa': 1.0.7(react-native@0.73.6)(wrtc@0.4.7)
+      '@constl/ipa': 1.0.9(react-native@0.73.6)(wrtc@0.4.7)
       '@constl/utils-ipa': 1.0.0
       '@orbitdb/core': 2.1.0
       deepcopy: 2.1.0
@@ -6903,13 +6903,13 @@ packages:
     dependencies:
       once: 1.4.0
 
-  /ennikkai@2.2.7(@constl/ipa@1.0.7):
+  /ennikkai@2.2.7(@constl/ipa@1.0.9):
     resolution: {integrity: sha512-LfwBjW3IC4aOstvGLoHQ4rWeK9Y5OplHHfjsozbMbaplczn/kKnpXQ2gqZpfkZRYNOL5CSp9nYQb9XW5++nxFQ==}
     peerDependencies:
       '@constl/ipa': ^1.0.0
     dependencies:
-      '@constl/ipa': 1.0.7(react-native@0.73.6)(wrtc@0.4.7)
-      '@lassi-js/kili': 0.3.10(@constl/ipa@1.0.7)
+      '@constl/ipa': 1.0.9(react-native@0.73.6)(wrtc@0.4.7)
+      '@lassi-js/kili': 0.3.10(@constl/ipa@1.0.9)
       deepmerge: 4.3.1
       events: 3.3.0
     transitivePeerDependencies:

@@ -37,7 +37,7 @@ concurrency:
 jobs:
   tests:
     uses: ./.github/workflows/tests.yml
-  publier_npm_suivant:
-    if: ${{ github.ref == 'refs/heads/main' }}
-    uses: ./.github/workflows/npm-publish-next.yml
-    needs: [ tests ]
+  # publier_npm_suivant:
+  #   if: ${{ github.ref == 'refs/heads/main' }}
+  #   uses: ./.github/workflows/npm-publish-next.yml
+  #   needs: [ tests ]
