@@ -4,6 +4,7 @@ import type { மொழிபெயர்ப்பு_அகராதி_வக�
 
 import { கிளிமூக்கு } from "./கிளிமூக்கு.js";
 import { கிளிமூக்கு_மூல்_கூட்ட_அடையாளம் } from "./மாறிலிகள்.js";
+import { suivreBdsDeFonctionListe } from "@constl/utils-ipa";
 
 export class கணக்கு {
   _விண்மீன்?: ClientConstellation;
@@ -73,15 +74,27 @@ export class கணக்கு {
   }: {
     செ: types.schémaFonctionSuivi<string[]>;
   }): Promise<types.schémaFonctionOublier> {
-    return await this.விண்மீன்.bds.rechercherBdsParNuée({
-      idNuée: this.மூல்_கூட்டம்_அடையாளம்,
+    return await suivreBdsDeFonctionListe({
+      fListe: async (fSuivreRacine: types.schémaFonctionSuivi<string[]>) => {
+        return await this.விண்மீன்.bds.rechercherBdsParNuée({
+          idNuée: this.மூல்_கூட்டம்_அடையாளம்,
+          f: fSuivreRacine,
+        });
+      },
+      fBranche: async (
+        id: string,
+        fSuivreBranche: types.schémaFonctionSuivi<string>,
+      ) => {
+        return await this.விண்மீன்.bds.suivreNuéesBd({
+          idBd: id,
+          f: (கூட்டங்கள்) => fSuivreBranche(கூட்டங்கள்[கூட்டங்கள்.length - 1]),
+        });
+      },
       f: செ,
     });
   }
 
   async திட்டத்தை_நீக்கு({ அடையாளம் }: { அடையாளம்: string }) {
-    if (this.விண்மீன்) {
-      await this.விண்மீன்.nuées.effacerNuée({ idNuée: அடையாளம் });
-    }
+    await this.விண்மீன்.nuées.effacerNuée({ idNuée: அடையாளம் });
   }
 }
