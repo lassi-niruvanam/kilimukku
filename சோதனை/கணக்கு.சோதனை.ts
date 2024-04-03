@@ -9,7 +9,7 @@ import { கணக்கு } from "@/கணக்கு.js";
 
 const { créerConstellationsTest } = constellation;
 
-describe.only("கணக்கு", async () => {
+describe("கணக்கு", async () => {
   let விண்மீன்: ClientConstellation;
   let வேறு_விண்மீன்: ClientConstellation;
   let என்_கணக்கு: கணக்கு;

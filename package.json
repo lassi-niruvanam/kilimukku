@@ -1,6 +1,6 @@
 {
   "name": "@lassi-js/kilimukku",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "விநியோகிக்கப்பட்ட மொழிபெயர்ப்புகள்",
   "main": "விநியோகம்/மூலம்/குறியீட்டு.js",
   "scripts": {
