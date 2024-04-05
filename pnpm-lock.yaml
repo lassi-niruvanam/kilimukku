@@ -6,14 +6,23 @@ settings:
 
 dependencies:
   '@constl/ipa':
+<<<<<<< HEAD
     specifier: ^1.0.9
+=======
+    specifier: ^1.0.10
+>>>>>>> b1d4070 (புதிப்பிப்பு)
     version: 1.0.10(react-native@0.73.6)(wrtc@0.4.7)
   '@constl/utils-ipa':
     specifier: ^1.0.0
     version: 1.0.0
   '@lassi-js/kili':
+<<<<<<< HEAD
     specifier: 0.3.10
     version: 0.3.10(@constl/ipa@1.0.10)
+=======
+    specifier: ^0.3.11
+    version: 0.3.11(@constl/ipa@1.0.10)
+>>>>>>> b1d4070 (புதிப்பிப்பு)
   uuid:
     specifier: ^9.0.1
     version: 9.0.1
@@ -1750,7 +1759,11 @@ packages:
       '@helia/block-brokers': 2.0.3
       '@helia/unixfs': 3.0.3
       '@ipld/dag-cbor': 9.2.0
+<<<<<<< HEAD
       '@lassi-js/kili': 0.3.10(@constl/ipa@1.0.10)
+=======
+      '@lassi-js/kili': 0.3.11(@constl/ipa@1.0.10)
+>>>>>>> b1d4070 (புதிப்பிப்பு)
       '@libp2p/autonat': 1.0.14
       '@libp2p/bootstrap': 10.0.17
       '@libp2p/circuit-relay-v2': 1.0.17
@@ -2640,8 +2653,13 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
+<<<<<<< HEAD
   /@lassi-js/kili@0.3.10(@constl/ipa@1.0.10):
     resolution: {integrity: sha512-TC0dwRgPsK6AoVpTyTa7lgVZpkD5JH+W/Z/InoNc5pNSKHwfDONMc3+CphHvos5cB/KHV4cinCbuKrHOlkEthA==}
+=======
+  /@lassi-js/kili@0.3.11(@constl/ipa@1.0.10):
+    resolution: {integrity: sha512-7ujEvbCg0kdp6U+zJmFAE+wOfNV6tHm8ssuoPYOUM7bJivFrQdLYv2D8MyPhsaWX6eQzVqBuDQqZqEyoQ9td/g==}
+>>>>>>> b1d4070 (புதிப்பிப்பு)
     peerDependencies:
       '@constl/ipa': ^1.0.5
     dependencies:
@@ -4527,6 +4545,11 @@ packages:
     dependencies:
       undici-types: 5.26.5
     dev: true
+
+  /@types/node@20.12.4:
+    resolution: {integrity: sha512-E+Fa9z3wSQpzgYQdYmme5X3OTuejnnTx88A6p6vkkJosR3KBz+HpE3kqNm98VE6cfLFcISx7zW7MsJkH6KwbTw==}
+    dependencies:
+      undici-types: 5.26.5
 
   /@types/node@20.12.4:
     resolution: {integrity: sha512-E+Fa9z3wSQpzgYQdYmme5X3OTuejnnTx88A6p6vkkJosR3KBz+HpE3kqNm98VE6cfLFcISx7zW7MsJkH6KwbTw==}
@@ -7044,7 +7067,11 @@ packages:
       '@constl/ipa': ^1.0.0
     dependencies:
       '@constl/ipa': 1.0.10(react-native@0.73.6)(wrtc@0.4.7)
+<<<<<<< HEAD
       '@lassi-js/kili': 0.3.10(@constl/ipa@1.0.10)
+=======
+      '@lassi-js/kili': 0.3.11(@constl/ipa@1.0.10)
+>>>>>>> b1d4070 (புதிப்பிப்பு)
       deepmerge: 4.3.1
       events: 3.3.0
     transitivePeerDependencies:
@@ -15004,7 +15031,7 @@ packages:
   /wide-align@1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
     dev: false
 
   /winston@2.4.7:

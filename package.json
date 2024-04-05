@@ -1,6 +1,6 @@
 {
   "name": "@lassi-js/kilimukku",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "விநியோகிக்கப்பட்ட மொழிபெயர்ப்புகள்",
   "main": "விநியோகம்/மூலம்/குறியீட்டு.js",
   "scripts": {
@@ -20,9 +20,9 @@
   "license": "AGPL-3.0-or-later",
   "type": "module",
   "dependencies": {
-    "@constl/ipa": "^1.0.9",
+    "@constl/ipa": "^1.0.10",
     "@constl/utils-ipa": "^1.0.0",
-    "@lassi-js/kili": "0.3.10",
+    "@lassi-js/kili": "^0.3.11",
     "uuid": "^9.0.1",
     "wherearewe": "^2.0.1"
   },
