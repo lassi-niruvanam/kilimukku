@@ -33,7 +33,7 @@ devDependencies:
     version: 9.0.8
   aegir:
     specifier: ^42.2.5
-    version: 42.2.7(@babel/core@7.24.4)(@typescript-eslint/parser@5.62.0)(eslint-plugin-n@16.6.2)
+    version: 42.2.8(@babel/core@7.24.4)(@typescript-eslint/parser@5.62.0)(eslint-plugin-n@16.6.2)
   browserify-fs:
     specifier: ^1.0.0
     version: 1.0.0
@@ -4238,7 +4238,7 @@ packages:
       '@babel/template': 7.24.0
       '@react-native/babel-plugin-codegen': 0.74.81(@babel/preset-env@7.24.4)
       babel-plugin-transform-flow-enums: 0.0.2(@babel/core@7.24.4)
-      react-refresh: 0.14.0
+      react-refresh: 0.14.1
     transitivePeerDependencies:
       - '@babel/preset-env'
       - supports-color
@@ -4480,7 +4480,7 @@ packages:
       https-proxy-agent: 7.0.4
       issue-parser: 7.0.0
       lodash-es: 4.17.21
-      mime: 4.0.2
+      mime: 4.0.3
       p-filter: 4.1.0
       semantic-release: 23.0.8(typescript@5.4.4)
       url-join: 5.0.0
@@ -4507,7 +4507,7 @@ packages:
       https-proxy-agent: 7.0.4
       issue-parser: 6.0.0
       lodash-es: 4.17.21
-      mime: 4.0.2
+      mime: 4.0.3
       p-filter: 4.1.0
       semantic-release: 23.0.8(typescript@5.4.4)
       url-join: 5.0.0
@@ -4528,7 +4528,7 @@ packages:
       lodash-es: 4.17.21
       nerf-dart: 1.0.0
       normalize-url: 8.0.1
-      npm: 10.5.2
+      npm: 10.6.0
       rc: 1.2.8
       read-pkg: 9.0.1
       registry-auth-token: 5.0.2
@@ -4550,7 +4550,7 @@ packages:
       lodash-es: 4.17.21
       nerf-dart: 1.0.0
       normalize-url: 8.0.1
-      npm: 10.5.2
+      npm: 10.6.0
       rc: 1.2.8
       read-pkg: 9.0.1
       registry-auth-token: 5.0.2
@@ -5145,8 +5145,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  /aegir@42.2.7(@babel/core@7.24.4)(@typescript-eslint/parser@5.62.0)(eslint-plugin-n@16.6.2):
-    resolution: {integrity: sha512-a3I4Ao8mvOH0k5zvGKzjsTj6SQWz0bE1CI4uxZG3+1DfoZwtRDkmKejQma92R+TNGVQ5TJLPHuWPyI/Z9ZORMg==}
+  /aegir@42.2.8(@babel/core@7.24.4)(@typescript-eslint/parser@5.62.0)(eslint-plugin-n@16.6.2):
+    resolution: {integrity: sha512-3WQaxohtRrVaRxApZ8rcIrEe6tmyhpsMRhl/kFbwidw1fNqZM43PxRpzGrNVlmwLuSQstYwdShH23pAgJUFA1w==}
     hasBin: true
     dependencies:
       '@anolilab/multi-semantic-release': 1.0.3(semantic-release@23.0.8)(typescript@5.4.4)
@@ -5914,7 +5914,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001612
-      electron-to-chromium: 1.4.748
+      electron-to-chromium: 1.4.749
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -7229,8 +7229,8 @@ packages:
       yargs: 16.2.0
     dev: true
 
-  /electron-to-chromium@1.4.748:
-    resolution: {integrity: sha512-VWqjOlPZn70UZ8FTKUOkUvBLeTQ0xpty66qV0yJcAGY2/CthI4xyW9aEozRVtuwv3Kpf5xTesmJUcPwuJmgP4A==}
+  /electron-to-chromium@1.4.749:
+    resolution: {integrity: sha512-LRMMrM9ITOvue0PoBrvNIraVmuDbJV5QC9ierz/z5VilMdPOVMjOtpICNld3PuXuTZ3CHH/UPxX9gHhAPwi+0Q==}
 
   /electron-window@0.8.1:
     resolution: {integrity: sha512-W1i9LfnZJozk3MXE8VgsL2E5wOUHSgyCvcg1H2vQQjj+gqhO9lVudgY3z3SF7LJAmi+0vy3CJkbMqsynWB49EA==}
@@ -9008,7 +9008,7 @@ packages:
     resolution: {integrity: sha512-+K84LB1DYwMHoHSgaOY/Jfhw3ucPmSET5v98Ke/HdNSw4a0UktWzyW1mjhjpuxxTqOOsfWT/7iVshHmVZ4IpOA==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
-      lru-cache: 10.2.0
+      lru-cache: 10.2.1
     dev: true
 
   /html-escaper@2.0.2:
@@ -10623,8 +10623,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /lru-cache@10.2.0:
-    resolution: {integrity: sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==}
+  /lru-cache@10.2.1:
+    resolution: {integrity: sha512-tS24spDe/zXhWbNPErCHs/AGOzbKGHT+ybSBqmdLm8WZ1xXLWvH8Qn71QPAlqVhd0qUTWjy+Kl9JmISgDdEjsA==}
     engines: {node: 14 || >=16.14}
 
   /lru-cache@5.1.1:
@@ -11462,8 +11462,8 @@ packages:
     engines: {node: '>=4.0.0'}
     hasBin: true
 
-  /mime@4.0.2:
-    resolution: {integrity: sha512-rSR2L7RhEm0ifwn6lZAa+CcLy7EEl6POovp3QcnFHb/C5P4B+h6u+yCQPQaWzNdecHL8p85zRowrAjpF9F46Og==}
+  /mime@4.0.3:
+    resolution: {integrity: sha512-KgUb15Oorc0NEKPbvfa0wRU+PItIEZmiv+pyAO2i0oTIVTJhlzMclU7w4RXWQrSOVH5ax/p/CkIO7KI4OyFJTQ==}
     engines: {node: '>=16'}
     hasBin: true
     dev: true
@@ -12050,8 +12050,8 @@ packages:
     dependencies:
       path-key: 4.0.0
 
-  /npm@10.5.2:
-    resolution: {integrity: sha512-cHVG7QEJwJdZyOrK0dKX5uf3R5Fd0E8AcmSES1jLtO52UT1enUKZ96Onw/xwq4CbrTZEnDuu2Vf9kCQh/Sd12w==}
+  /npm@10.6.0:
+    resolution: {integrity: sha512-KC70Su2ZnO9v4i2t+M0sQcsRERk++XcYbK9fy4bLWzUCV2nELhSN7UAkoe42P4HQTg2LyQxcfntgYS89OEaOsA==}
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
     dev: true
@@ -12072,8 +12072,6 @@ packages:
       - chalk
       - ci-info
       - cli-columns
-      - cli-table3
-      - columnify
       - fastest-levenshtein
       - fs-minipass
       - glob
@@ -12109,11 +12107,11 @@ packages:
       - npm-profile
       - npm-registry-fetch
       - npm-user-validate
-      - npmlog
       - p-map
       - pacote
       - parse-conflict-json
       - proc-log
+      - proggy
       - qrcode-terminal
       - read
       - semver
@@ -12727,7 +12725,7 @@ packages:
     resolution: {integrity: sha512-7xTavNy5RQXnsjANvVvMkEjvloOinkAjv/Z6Ildz9v2RinZ4SBKTWFOVRbaF8p0vpHnyjV/UwNDdKuUv6M5qcA==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
-      lru-cache: 10.2.0
+      lru-cache: 10.2.1
       minipass: 7.0.4
 
   /path-type@4.0.0:
@@ -12962,7 +12960,7 @@ packages:
     dependencies:
       '@jest/schemas': 29.6.3
       ansi-styles: 5.2.0
-      react-is: 18.2.0
+      react-is: 18.3.0
 
   /private-ip@3.0.2:
     resolution: {integrity: sha512-2pkOVPGYD/4QyAg95c6E/4bLYXPthT5Xw4ocXYzIIsMBhskOMn6IwkWXmg6ZiA6K58+O6VD/n02r1hDhk7vDPw==}
@@ -13190,8 +13188,8 @@ packages:
   /react-is@17.0.2:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
 
-  /react-is@18.2.0:
-    resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
+  /react-is@18.3.0:
+    resolution: {integrity: sha512-wRiUsea88TjKDc4FBEn+sLvIDesp6brMbGWnJGjew2waAc9evdhja/2LvePc898HJbHw0L+MTWy7NhpnELAvLQ==}
 
   /react-native-test-runner@5.0.0(@babel/core@7.24.4):
     resolution: {integrity: sha512-/ztZUqRqV98/lLbGN781egGXjkR8i7MhfAm7nGtKe1DoDuITkvQk/4fF/nXfDyZEtaae9NYuv2MocUR/qcN1bQ==}
@@ -13278,7 +13276,7 @@ packages:
       promise: 8.3.0
       react: 18.2.0
       react-devtools-core: 5.1.0
-      react-refresh: 0.14.0
+      react-refresh: 0.14.1
       react-shallow-renderer: 16.15.0(react@18.2.0)
       regenerator-runtime: 0.13.11
       scheduler: 0.24.0-canary-efb381bbf-20230505
@@ -13294,8 +13292,8 @@ packages:
       - supports-color
       - utf-8-validate
 
-  /react-refresh@0.14.0:
-    resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
+  /react-refresh@0.14.1:
+    resolution: {integrity: sha512-iZiRCtNGY3QYP3pYOSSBOvQmBpQTcJccr/VcK2blpJrpPTUDjeN51mxm5nsrkCzBwsbGUj+TN9q2oPz5E13FLg==}
     engines: {node: '>=0.10.0'}
 
   /react-refresh@0.4.3:
@@ -13310,7 +13308,7 @@ packages:
     dependencies:
       object-assign: 4.1.1
       react: 18.2.0
-      react-is: 18.2.0
+      react-is: 18.3.0
 
   /react@18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
