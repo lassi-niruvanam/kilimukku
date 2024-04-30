@@ -9,27 +9,25 @@ export const இலக்கு_மொழி_நெடுவரிசை_அட�
 export const மூல்_உரை_நெடுவரிசை_அடையாளம் = "மூல்_உரை";
 export const மொழிபெயர்ப்பு_நெடுவரிசை_அடையாளம் = "மொழிபெயர்ப்பு";
 
-/** À changer - temporaire ! */
 export const கிளிமூக்கு_மூல்_கூட்ட_அடையாளம் =
-  "/orbitdb/zdpuAt9PVUHGEyrL43tWDmpBUrgoPPWZHX7AGXWk4ZhEZ1oik";
+  "/orbitdb/zdpuAyiNBJZCMSTWynQrRynKCbfz7uJhv892B5Dy1qnyQfwP6";
 
 export const சாபி_மாறி_அடையாளம் =
-  "/orbitdb/zdpuAt9PVUHGEyrL43tWDmpBUrgoPPWZHX7AGXWk4ZhEZ1oik";
+  "/orbitdb/zdpuAviHxRLaTdUCfJeh1Dw8hbiHkcRsmEkiitX2MXQes3XYY";
 export const மூல்_மொழி_மாறி_அடையாளம் =
-  "/orbitdb/zdpuB1TEfuUWUQ2dPf8PHQFCg5n3zzx2xRhmimdF7tv6SSu9s";
+  "/orbitdb/zdpuAyCPoNvoFVRt4y5uA97d8LLjcXnqs2CaoS6oVvbZwkSou";
 export const இலக்கு_மொழி_மாறி_அடையாளம் =
-  "/orbitdb/zdpuAtmGaeNicerk2ByPa4oQMtSPgdNovQp6ZC6c2fJqF64Sb";
+  "/orbitdb/zdpuB35kfHohXZQnFFAMhwFPt78vH7e1NuquQ6KcNMPGQ3Hgj";
 export const மூல்_உரை_மாறி_அடையாளம் =
-  "/orbitdb/zdpuAyBg5f4Lxabv7YHVrxpNbBQW6dzxwH6wfQVMKZjECnkry";
+  "/orbitdb/zdpuAwxQnCrzYK3kXtM4MGYfdWhM3rjSb1cyQx4hMSwjHzgf9";
 export const மொழிபெயர்ப்பு_மாறி_அடையாளம் =
-  "/orbitdb/zdpuAnEhqhCW51yfohfHWzjLgDPyuY2ySVmTBW7upAidVbwnX";
+  "/orbitdb/zdpuB3HFW5njgmT9kxvJoxNq7wG27iCj8GLf3F3iKtfecw8De";
 
 export const மொழியாக்கம்_சிறப்பு_சொல்_அடையாளம் =
-  "/orbitdb/zdpuAoNDXakfzK2DxJAozuR2V9TYha5bvzjQHN5VnAm4jvL6S";
+  "/orbitdb/zdpuAnASCNyc198pcsxDYCdZoAvfj5EC3iWbeMyK9FRsAaoaS";
 export const கிளிமூக்கு_சிறப்பு_சொல்_அடையாளம் =
-  "/orbitdb/zdpuAsViPqnpRhUwN6kL7cSyLFaxSEkK233cJAChJMtc2vwLT";
+  "/orbitdb/zdpuAzksPz4pdkBfy1Z74LStFLGPS3njxtD6BEvcPEYdSEv8R";
 
-/** À changer - temporaire ! */
 
 export const கிளிமூக்கு_தரவுத்தளம்_வார்ப்புரு: bds.schémaSpécificationBd = {
   motsClefs: [
