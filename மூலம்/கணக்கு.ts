@@ -76,18 +76,39 @@ export class கணக்கு {
   }): Promise<types.schémaFonctionOublier> {
     return await suivreBdsDeFonctionListe({
       fListe: async (fSuivreRacine: types.schémaFonctionSuivi<string[]>) => {
-        return await this.விண்மீன்.bds.rechercherBdsParNuée({
-          idNuée: this.மூல்_கூட்டம்_அடையாளம்,
+        return await this.விண்மீன்.bds.suivreBds({
           f: fSuivreRacine,
         });
       },
       fBranche: async (
-        id: string,
-        fSuivreBranche: types.schémaFonctionSuivi<string>,
+        idBd: string,
+        fSuivreBrancheBds: types.schémaFonctionSuivi<string[]>,
       ) => {
-        return await this.விண்மீன்.bds.suivreNuéesBd({
-          idBd: id,
-          f: (கூட்டங்கள்) => fSuivreBranche(கூட்டங்கள்[கூட்டங்கள்.length - 1]),
+        return await suivreBdsDeFonctionListe({
+          fListe: async (
+            fSuivreRacine: types.schémaFonctionSuivi<string[]>,
+          ) => {
+            return await this.விண்மீன்.bds.suivreNuéesBd({
+              idBd,
+              f: fSuivreRacine,
+            });
+          },
+          fBranche: async (
+            idNuée: string,
+            fSuivreBranche: types.schémaFonctionSuivi<string | undefined>,
+          ) => {
+            return await this.விண்மீன்.nuées.suivreNuéesParents({
+              idNuée,
+              f: async (parents) =>
+                await fSuivreBranche(
+                  parents.includes(this.மூல்_கூட்டம்_அடையாளம்)
+                    ? idNuée
+                    : undefined,
+                ),
+            });
+          },
+          f: (idsNuées: (string | undefined)[]) =>
+            fSuivreBrancheBds(idsNuées.filter((x) => !!x) as string[]),
         });
       },
       f: செ,
