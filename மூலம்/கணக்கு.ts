@@ -65,7 +65,7 @@ export class கணக்கு {
     return await this.விண்மீன்.nuées.rechercherNuéesDéscendantes({
       idNuée: this.மூல்_கூட்டம்_அடையாளம்,
       f: செ,
-      // toutLeRéseau: false,
+      toutLeRéseau: false,
     });
   }
 
