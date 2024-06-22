@@ -29,7 +29,7 @@ importers:
         version: 1.2.7(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))
       '@types/mocha':
         specifier: ^10.0.6
-        version: 10.0.6
+        version: 10.0.7
       '@types/uuid':
         specifier: ^9.0.8
         version: 9.0.8
@@ -1949,8 +1949,8 @@ packages:
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
-  '@types/mocha@10.0.6':
-    resolution: {integrity: sha512-dJvrYWxP/UcXm36Qn36fxhUKu8A/xMRXVT2cliFF1Z7UA9liG5Psj3ezNSZw+5puH2czDXRLcXQxf8JbJt0ejg==}
+  '@types/mocha@10.0.7':
+    resolution: {integrity: sha512-GN8yJ1mNTcFcah/wKEFIJckJx9iJLoMSzWcfRRuxz/Jk+U6KQNnml+etbtxFK8lPjzOw3zp4Ha/kjSst9fsHYw==}
 
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
@@ -10773,7 +10773,7 @@ snapshots:
 
   '@types/minimist@1.2.5': {}
 
-  '@types/mocha@10.0.6': {}
+  '@types/mocha@10.0.7': {}
 
   '@types/ms@0.7.34': {}
 
@@ -11069,7 +11069,7 @@ snapshots:
       '@types/chai-as-promised': 7.1.8
       '@types/chai-string': 1.4.5
       '@types/chai-subset': 1.3.5
-      '@types/mocha': 10.0.6
+      '@types/mocha': 10.0.7
       '@types/node': 20.14.7
       '@typescript-eslint/eslint-plugin': 7.13.1(@typescript-eslint/parser@7.13.1(eslint@8.57.0)(typescript@5.4.5))(eslint@8.57.0)(typescript@5.4.5)
       buffer: 6.0.3
