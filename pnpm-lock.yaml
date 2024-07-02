@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@constl/ipa':
         specifier: ^1.0.17
-        version: 1.0.26(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))
+        version: 1.0.30(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))
       '@constl/utils-ipa':
         specifier: ^1.0.0
         version: 1.0.1
       '@lassi-js/kili':
         specifier: ^0.3.14
-        version: 0.3.14(@constl/ipa@1.0.26(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0)))
+        version: 0.3.14(@constl/ipa@1.0.30(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0)))
       uuid:
         specifier: ^9.0.1
         version: 9.0.1
@@ -839,8 +839,8 @@ packages:
     resolution: {integrity: sha512-uHmptoxgMsfDIP7cQMQ4Zp9+y27oON5+gloBLXi+7EJpMhyvo7tjafUxRILwLofzeAtfaF3ZHraoXRFUSbhK2Q==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
-  '@chainsafe/libp2p-noise@15.0.0':
-    resolution: {integrity: sha512-O8Y/WVU4J/qrnG72jwVhbmdXiBzv1dT9B3PMClCRmZ9z/5vVPEGRVXE/SVYeGF3bNuBTLoh+F+GaKG/9UHlMhg==}
+  '@chainsafe/libp2p-noise@15.1.0':
+    resolution: {integrity: sha512-84S/Uk7ZZRYpSlE5d1odMmQTl5g5Da8etgcf4QI7arTAHkvBs3il7yGHIPt4wV4EV0qIMG+XjdGIYihRXfI2/w==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
   '@chainsafe/libp2p-yamux@6.0.2':
@@ -859,12 +859,12 @@ packages:
   '@constl/bohr-db@1.1.0':
     resolution: {integrity: sha512-7XT+jASK69Y+41dYuDEjaatKfv6CSpthf+d7YT7gGcd6tyd6VNryb06pD9imTyARXFSieAeV72LpRYMnSzP1hg==}
 
-  '@constl/ipa@1.0.26':
-    resolution: {integrity: sha512-qhfNXZNEElkfU+Y+1xgyquk7eZvkn8xkZGSXhAuICBkDZBSp6sAGWLg3YXMHTjKhkhIkW/dzSTYn/yLO65+Qjw==}
+  '@constl/ipa@1.0.30':
+    resolution: {integrity: sha512-RidararWtpIouHRpInx3eZgzjUb+a/Dleh+a3ayiG+CCuKPVg1pZCuoOH4UNJN6XR9uy9HREG+i7D/O2+D5fkA==}
     engines: {node: '>=20'}
 
-  '@constl/mandataire@1.0.2':
-    resolution: {integrity: sha512-L4HzTXWJOuoTVeGxGQBKOK0fT5hAmMoZan2SU3mCkz5dN1at8R5JOmW9A8lcFWg5TblMHRDj5FRxAqmtIdhBOA==}
+  '@constl/mandataire@2.0.3':
+    resolution: {integrity: sha512-fQhJ+p28yG6hM3QY95/hjBab6NHEb1fL1Oh9Ufq7FPCx2Q+9FHJ9qVX6xHmB2VRvlO84AIMROCpniJE5H/Z5Lg==}
 
   '@constl/utils-ipa@1.0.1':
     resolution: {integrity: sha512-BIbwqwZ3T1RWXBTm7ocHGP8HxIQZnA19PCjGnrfuNdDThMwOK51WUnI/yLQAMuj7ze1lsBC+AAfvzQzX+7DPLg==}
@@ -1221,16 +1221,16 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@ipld/dag-cbor@9.2.0':
-    resolution: {integrity: sha512-N14oMy0q4gM6OuZkIpisKe0JBSjf1Jb39VI+7jMLiWX9124u1Z3Fdj/Tag1NA0cVxxqWDh0CqsjcVfOKtelPDA==}
+  '@ipld/dag-cbor@9.2.1':
+    resolution: {integrity: sha512-nyY48yE7r3dnJVlxrdaimrbloh4RokQaNRdI//btfTkcTEZbpmSrbYcBQ4VKTf8ZxXAOUJy4VsRpkJo+y9RTnA==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
-  '@ipld/dag-json@10.2.1':
-    resolution: {integrity: sha512-P3LXQ1HhroyWxpQtI0vqLigM7QyLLS/pcApEz8c46VEOR1878n/ufy5eGlsG840RDm4RMIG2UWp6snuD+h/edQ==}
+  '@ipld/dag-json@10.2.2':
+    resolution: {integrity: sha512-NnU8HdHKwAoGyrW3S09NMa8aZw0tImLRyR64hoafpLpDpAbA9g1+fb24JsdlugbL4sXUQVwDVA+qK4Ud8V83lA==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
-  '@ipld/dag-pb@4.1.1':
-    resolution: {integrity: sha512-wsSNjIvcABXuH9MKXpvRGMXsS20+Kf2Q0Hq2+2dxN6Wpw/K0kDF3nDmCnO6wlpninQ0vzx1zq54O3ttn5pTH9A==}
+  '@ipld/dag-pb@4.1.2':
+    resolution: {integrity: sha512-BSztO4l3C+ya9HjCaQot26Y4AVsqIKtnn6+23ubc1usucnf6yoTBme18oCCdM6gKBMxuPqju5ye3lh9WEJsdeQ==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
 
   '@isaacs/cliui@8.0.2':
@@ -1534,8 +1534,11 @@ packages:
   '@noble/ciphers@0.4.1':
     resolution: {integrity: sha512-QCOA9cgf3Rc33owG0AYBB9wszz+Ul2kramWN8tXG44Gyciud/tbkEqvxRF/IpqQaBpRBNi9f4jdNxqB2CQCIXg==}
 
-  '@noble/curves@1.4.0':
-    resolution: {integrity: sha512-p+4cb332SFCrReJkCYe8Xzm0OWi4Jji5jVdIZRL/PmacmDkFNw6MrrV+gGpiPxLHbV+zKFRywUWbaseT+tZRXg==}
+  '@noble/ciphers@0.5.3':
+    resolution: {integrity: sha512-B0+6IIHiqEs3BPMT0hcRmHvEj2QHOLu+uwt+tqDDeVd0oyVzh7BPrDcPjRnV1PV/5LaknXJJQvOuRGR0zQJz+w==}
+
+  '@noble/curves@1.4.2':
+    resolution: {integrity: sha512-TavHr8qycMChk8UwMld0ZDRvatedkzWfH8IiaeGCfymOP5i0hSCozz9vHOL0nkwk7HRMlFnAiKpS2jrUmSybcw==}
 
   '@noble/hashes@1.4.0':
     resolution: {integrity: sha512-V1JJ1WTRUqHHrOSh597hURcMqVKVGL/ea3kv0gSnEdsEZ0/+VyPghM1lMNGc00z7CIQorSvbKpuJkxvuHbvdbg==}
@@ -1941,8 +1944,8 @@ packages:
   '@types/lodash-es@4.17.12':
     resolution: {integrity: sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==}
 
-  '@types/lodash@4.17.5':
-    resolution: {integrity: sha512-MBIOHVZqVqgfro1euRDWX7OO0fBVUUMrN6Pwm8LQsz8cWhEpihlvR70ENj3f40j58TNxZaWv2ndSkInykNBBJw==}
+  '@types/lodash@4.17.6':
+    resolution: {integrity: sha512-OpXEVoCKSS3lQqjx9GGGOapBeuW5eUboYHRlHP9urXPX25IKZ6AnP5ZRxtVf63iieUbsHxLn8NQ5Nlftc6yzAA==}
 
   '@types/mdast@4.0.4':
     resolution: {integrity: sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==}
@@ -2664,8 +2667,8 @@ packages:
     resolution: {integrity: sha512-K7Qy8O9p76sL3/3m7/zLKbRkyOlSZAgzEaLhyj2mXS8PsCud2Eo4hAb8aLtZqHh0QGqLcb9dlJSu6lHRVENm1w==}
     engines: {node: '>=6'}
 
-  cborg@4.2.1:
-    resolution: {integrity: sha512-LSdnRagOTx1QZ3/ECLEOMc5fYHaDBjjQkBeBGtZ9KkGa78Opb5UzUxJeuxhmYTZm1DUzdBjj9JT3fcQNRL9ZBg==}
+  cborg@4.2.2:
+    resolution: {integrity: sha512-A0z7WhnY4HDLrVdnQI4i/OLG3kANHotk5NzDpr2iauf4xrmQPwJCxlbCnIXkVrFtsr8G3omfvvr5oF50i1Zt8g==}
     hasBin: true
 
   ccount@2.0.1:
@@ -5610,8 +5613,8 @@ packages:
   node-abort-controller@3.1.1:
     resolution: {integrity: sha512-AGK2yQKIjRuqnc6VkX2Xj5d+QW8xZ87pa1UK6yA6ouUyuxfHuMP6umE5QK7UmTeOAymo+Zx1Fxiuw9rVx8taHQ==}
 
-  node-datachannel@0.9.1:
-    resolution: {integrity: sha512-b6Uc6YN5We2/aZA6QGicxSdWUDSwlR+vcO/Dn44BY5gieF3AOwsL/zPD+Ril+1KvYDwVJkVbRIovbG76E4PpwA==}
+  node-datachannel@0.9.2:
+    resolution: {integrity: sha512-sknq4EAJcSNHUMiK6Gru3vtwo8QICiFs5xJyaitJy/ZLSUbikaGrDORpIpdGp8++4AYQOYC5vr9VyA6i01KeJQ==}
     engines: {node: '>=16.0.0'}
 
   node-dir@0.1.17:
@@ -6276,8 +6279,8 @@ packages:
     resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
     engines: {node: '>=0.4.0'}
 
-  prom-client@15.1.2:
-    resolution: {integrity: sha512-on3h1iXb04QFLLThrmVYg1SChBQ9N1c+nKAjebBjokBqipddH3uxmOUcEkTnzmJ8Jh/5TSUnUqS40i2QB2dJHQ==}
+  prom-client@15.1.3:
+    resolution: {integrity: sha512-6ZiOBfCywsD4k1BN9IX0uZhF+tJkV8q8llP64G5Hajs4JOeVLPCwpPVcpXy3BwYiUGgyJzsJJQeOIv7+hDSq8g==}
     engines: {node: ^16 || ^18 || >=20}
 
   promise@8.3.0:
@@ -7484,6 +7487,10 @@ packages:
   utils-merge@1.0.1:
     resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
+
+  uuid@10.0.0:
+    resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
+    hasBin: true
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
@@ -8769,7 +8776,7 @@ snapshots:
       '@libp2p/interface': 1.5.0
       '@libp2p/peer-id': 4.1.4
       '@noble/ciphers': 0.4.1
-      '@noble/curves': 1.4.0
+      '@noble/curves': 1.4.2
       '@noble/hashes': 1.4.0
       it-byte-stream: 1.0.12
       it-length-prefixed: 9.0.4
@@ -8782,15 +8789,15 @@ snapshots:
       uint8arrays: 5.1.0
       wherearewe: 2.0.1
 
-  '@chainsafe/libp2p-noise@15.0.0':
+  '@chainsafe/libp2p-noise@15.1.0':
     dependencies:
       '@chainsafe/as-chacha20poly1305': 0.1.0
       '@chainsafe/as-sha256': 0.4.2
       '@libp2p/crypto': 4.1.4
       '@libp2p/interface': 1.5.0
       '@libp2p/peer-id': 4.1.4
-      '@noble/ciphers': 0.4.1
-      '@noble/curves': 1.4.0
+      '@noble/ciphers': 0.5.3
+      '@noble/curves': 1.4.2
       '@noble/hashes': 1.4.0
       it-length-prefixed: 9.0.4
       it-length-prefixed-stream: 1.1.8
@@ -8838,19 +8845,19 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@constl/ipa@1.0.26(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))':
+  '@constl/ipa@1.0.30(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))':
     dependencies:
       '@chainsafe/libp2p-gossipsub': 11.2.1
-      '@chainsafe/libp2p-noise': 15.0.0
+      '@chainsafe/libp2p-noise': 15.1.0
       '@chainsafe/libp2p-yamux': 6.0.2
       '@chriscdn/promise-semaphore': 2.0.9
       '@constl/bohr-db': 1.1.0(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))
-      '@constl/mandataire': 1.0.2
+      '@constl/mandataire': 2.0.3
       '@constl/utils-ipa': 1.0.1
       '@helia/block-brokers': 1.0.0
       '@helia/unixfs': 3.0.6
-      '@ipld/dag-cbor': 9.2.0
-      '@lassi-js/kili': 0.3.14(@constl/ipa@1.0.26(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0)))
+      '@ipld/dag-cbor': 9.2.1
+      '@lassi-js/kili': 0.3.14(@constl/ipa@1.0.30(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0)))
       '@libp2p/autonat': 1.1.0
       '@libp2p/bootstrap': 10.1.0
       '@libp2p/circuit-relay-v2': 1.1.0
@@ -8879,7 +8886,7 @@ snapshots:
       crypto-js: 4.2.0
       deep-equal: 2.2.3
       deepcopy: 2.1.0
-      ennikkai: 2.3.2(@constl/ipa@1.0.26(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0)))
+      ennikkai: 2.3.2(@constl/ipa@1.0.30(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0)))
       env-paths: 3.0.0
       events: 3.3.0
       file-saver: 2.0.5
@@ -8894,7 +8901,7 @@ snapshots:
       merge-options: 3.0.4
       multiformats: 13.1.0
       platform: 1.3.6
-      prom-client: 15.1.2
+      prom-client: 15.1.3
       ssim: 0.0.0
       tslib: 2.6.3
       uint8arrays: 5.1.0
@@ -8909,10 +8916,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@constl/mandataire@1.0.2':
+  '@constl/mandataire@2.0.3':
     dependencies:
       events: 3.3.0
-      uuid: 9.0.1
+      uuid: 10.0.0
 
   '@constl/utils-ipa@1.0.1':
     dependencies:
@@ -9211,7 +9218,7 @@ snapshots:
   '@helia/unixfs@3.0.6':
     dependencies:
       '@helia/interface': 4.3.0
-      '@ipld/dag-pb': 4.1.1
+      '@ipld/dag-pb': 4.1.2
       '@libp2p/interface': 1.5.0
       '@libp2p/logger': 4.0.15
       '@multiformats/murmur3': 2.1.8
@@ -9247,17 +9254,17 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@ipld/dag-cbor@9.2.0':
+  '@ipld/dag-cbor@9.2.1':
     dependencies:
-      cborg: 4.2.1
+      cborg: 4.2.2
       multiformats: 13.1.0
 
-  '@ipld/dag-json@10.2.1':
+  '@ipld/dag-json@10.2.2':
     dependencies:
-      cborg: 4.2.1
+      cborg: 4.2.2
       multiformats: 13.1.0
 
-  '@ipld/dag-pb@4.1.1':
+  '@ipld/dag-pb@4.1.2':
     dependencies:
       multiformats: 13.1.0
 
@@ -9350,9 +9357,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@lassi-js/kili@0.3.14(@constl/ipa@1.0.26(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0)))':
+  '@lassi-js/kili@0.3.14(@constl/ipa@1.0.30(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0)))':
     dependencies:
-      '@constl/ipa': 1.0.26(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))
+      '@constl/ipa': 1.0.30(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))
       '@constl/utils-ipa': 1.0.1
       '@orbitdb/core': 2.2.0
       deepcopy: 2.1.0
@@ -9408,7 +9415,7 @@ snapshots:
   '@libp2p/crypto@2.0.8':
     dependencies:
       '@libp2p/interface': 0.1.6
-      '@noble/curves': 1.4.0
+      '@noble/curves': 1.4.2
       '@noble/hashes': 1.4.0
       multiformats: 12.1.3
       node-forge: 1.3.1
@@ -9419,7 +9426,7 @@ snapshots:
   '@libp2p/crypto@3.0.4':
     dependencies:
       '@libp2p/interface': 1.5.0
-      '@noble/curves': 1.4.0
+      '@noble/curves': 1.4.2
       '@noble/hashes': 1.4.0
       multiformats: 13.1.0
       node-forge: 1.3.1
@@ -9430,7 +9437,7 @@ snapshots:
   '@libp2p/crypto@4.1.3':
     dependencies:
       '@libp2p/interface': 1.4.1
-      '@noble/curves': 1.4.0
+      '@noble/curves': 1.4.2
       '@noble/hashes': 1.4.0
       asn1js: 3.0.5
       multiformats: 13.1.1
@@ -9441,7 +9448,7 @@ snapshots:
   '@libp2p/crypto@4.1.4':
     dependencies:
       '@libp2p/interface': 1.5.0
-      '@noble/curves': 1.4.0
+      '@noble/curves': 1.4.2
       '@noble/hashes': 1.4.0
       asn1js: 3.0.5
       multiformats: 13.1.0
@@ -9941,7 +9948,7 @@ snapshots:
 
   '@libp2p/webrtc@4.1.0(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))':
     dependencies:
-      '@chainsafe/libp2p-noise': 15.0.0
+      '@chainsafe/libp2p-noise': 15.1.0
       '@libp2p/interface': 1.5.0
       '@libp2p/interface-internal': 1.2.4
       '@libp2p/peer-id': 4.1.4
@@ -9956,7 +9963,7 @@ snapshots:
       it-stream-types: 2.0.1
       multiformats: 13.1.0
       multihashes: 4.0.3
-      node-datachannel: 0.9.1
+      node-datachannel: 0.9.2
       p-defer: 4.0.1
       p-event: 6.0.1
       p-timeout: 6.1.2
@@ -9988,7 +9995,7 @@ snapshots:
 
   '@libp2p/webtransport@4.1.0':
     dependencies:
-      '@chainsafe/libp2p-noise': 15.0.0
+      '@chainsafe/libp2p-noise': 15.1.0
       '@libp2p/interface': 1.5.0
       '@libp2p/peer-id': 4.1.4
       '@libp2p/utils': 5.4.4
@@ -10109,7 +10116,9 @@ snapshots:
 
   '@noble/ciphers@0.4.1': {}
 
-  '@noble/curves@1.4.0':
+  '@noble/ciphers@0.5.3': {}
+
+  '@noble/curves@1.4.2':
     dependencies:
       '@noble/hashes': 1.4.0
 
@@ -10189,7 +10198,7 @@ snapshots:
 
   '@orbitdb/core@2.2.0':
     dependencies:
-      '@ipld/dag-cbor': 9.2.0
+      '@ipld/dag-cbor': 9.2.1
       '@libp2p/crypto': 3.0.4
       it-pipe: 3.0.1
       level: 8.0.1
@@ -10771,9 +10780,9 @@ snapshots:
 
   '@types/lodash-es@4.17.12':
     dependencies:
-      '@types/lodash': 4.17.5
+      '@types/lodash': 4.17.6
 
-  '@types/lodash@4.17.5': {}
+  '@types/lodash@4.17.6': {}
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -11706,7 +11715,7 @@ snapshots:
 
   catering@2.1.1: {}
 
-  cborg@4.2.1: {}
+  cborg@4.2.2: {}
 
   ccount@2.0.1: {}
 
@@ -12453,10 +12462,10 @@ snapshots:
     dependencies:
       once: 1.4.0
 
-  ennikkai@2.3.2(@constl/ipa@1.0.26(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))):
+  ennikkai@2.3.2(@constl/ipa@1.0.30(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))):
     dependencies:
-      '@constl/ipa': 1.0.26(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))
-      '@lassi-js/kili': 0.3.14(@constl/ipa@1.0.26(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0)))
+      '@constl/ipa': 1.0.30(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0))
+      '@lassi-js/kili': 0.3.14(@constl/ipa@1.0.30(react-native@0.73.6(@babel/core@7.24.7)(@babel/preset-env@7.24.4(@babel/core@7.24.7))(react@18.2.0)))
       deepmerge: 4.3.1
       events: 3.3.0
 
@@ -13546,9 +13555,9 @@ snapshots:
       '@helia/block-brokers': 1.0.0
       '@helia/delegated-routing-v1-http-api-client': 1.1.2
       '@helia/interface': 3.0.1
-      '@ipld/dag-cbor': 9.2.0
-      '@ipld/dag-json': 10.2.1
-      '@ipld/dag-pb': 4.1.1
+      '@ipld/dag-cbor': 9.2.1
+      '@ipld/dag-json': 10.2.2
+      '@ipld/dag-pb': 4.1.2
       '@libp2p/autonat': 1.1.0
       '@libp2p/bootstrap': 10.1.0
       '@libp2p/circuit-relay-v2': 1.1.0
@@ -13568,7 +13577,7 @@ snapshots:
       '@libp2p/websockets': 8.1.0
       '@libp2p/webtransport': 4.1.0
       blockstore-core: 4.4.1
-      cborg: 4.2.1
+      cborg: 4.2.2
       datastore-core: 9.2.9
       interface-blockstore: 5.2.10
       interface-datastore: 8.2.11
@@ -13781,9 +13790,9 @@ snapshots:
 
   ipfs-unixfs-exporter@13.5.0:
     dependencies:
-      '@ipld/dag-cbor': 9.2.0
-      '@ipld/dag-json': 10.2.1
-      '@ipld/dag-pb': 4.1.1
+      '@ipld/dag-cbor': 9.2.1
+      '@ipld/dag-json': 10.2.2
+      '@ipld/dag-pb': 4.1.2
       '@multiformats/murmur3': 2.1.8
       err-code: 3.0.1
       hamt-sharding: 3.0.6
@@ -13801,7 +13810,7 @@ snapshots:
 
   ipfs-unixfs-importer@15.2.5:
     dependencies:
-      '@ipld/dag-pb': 4.1.1
+      '@ipld/dag-pb': 4.1.2
       '@multiformats/murmur3': 2.1.8
       err-code: 3.0.1
       hamt-sharding: 3.0.6
@@ -13833,7 +13842,7 @@ snapshots:
       '@libp2p/interface': 0.1.6
       '@libp2p/logger': 3.1.0
       '@libp2p/peer-id': 3.0.6
-      cborg: 4.2.1
+      cborg: 4.2.2
       err-code: 3.0.1
       interface-datastore: 8.2.11
       multiformats: 12.1.3
@@ -13850,7 +13859,7 @@ snapshots:
       '@libp2p/interface': 1.5.0
       '@libp2p/logger': 4.0.15
       '@libp2p/peer-id': 4.1.4
-      cborg: 4.2.1
+      cborg: 4.2.2
       err-code: 3.0.1
       interface-datastore: 8.2.11
       multiformats: 13.1.0
@@ -15575,7 +15584,7 @@ snapshots:
 
   node-abort-controller@3.1.1: {}
 
-  node-datachannel@0.9.1:
+  node-datachannel@0.9.2:
     dependencies:
       node-domexception: 2.0.1
       prebuild-install: 7.1.2
@@ -16224,7 +16233,7 @@ snapshots:
 
   progress@2.0.3: {}
 
-  prom-client@15.1.2:
+  prom-client@15.1.3:
     dependencies:
       '@opentelemetry/api': 1.9.0
       tdigest: 0.1.2
@@ -17633,6 +17642,8 @@ snapshots:
       which-typed-array: 1.1.15
 
   utils-merge@1.0.1: {}
+
+  uuid@10.0.0: {}
 
   uuid@8.3.2: {}
 
