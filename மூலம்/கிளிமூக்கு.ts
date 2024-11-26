@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import type { ClientConstellation, tableaux, types } from "@constl/ipa";
+import type { Constellation, tableaux, types } from "@constl/ipa";
 import type { அங்கீகரிக்கப்பட்ட_உறுப்படி_வகை } from "@lassi-js/kili";
 
 import { uneFois as ஒருமுறை, attendreStabilité } from "@constl/utils-ipa";
@@ -44,7 +44,7 @@ export class கிளிமூக்கு {
     அடையாளம்,
   }: {
     மூல்_மொழிபெயர்ப்புகள்?: மொழிபெயர்ப்பு_அகராதி_வகை;
-    விண்மீன்?: ClientConstellation;
+    விண்மீன்?: Constellation;
     அடையாளம்?: string;
     மூல்_மொழி?: string;
   }) {
@@ -67,7 +67,7 @@ export class கிளிமூக்கு {
     விண்மீன்,
     பேற்றோர் = கிளிமூக்கு_மூல்_கூட்ட_அடையாளம்,
   }: {
-    விண்மீன்: ClientConstellation;
+    விண்மீன்: Constellation;
     பேற்றோர்?: string;
   }): Promise<string> {
     const அடையாளம் = await கிளி.உருவாக்கு({

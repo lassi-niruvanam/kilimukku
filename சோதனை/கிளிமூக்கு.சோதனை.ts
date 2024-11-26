@@ -2,7 +2,7 @@ import { expect } from "aegir/chai";
 
 import { isBrowser } from "wherearewe";
 
-import { ClientConstellation, créerConstellation } from "@constl/ipa";
+import { Constellation, créerConstellation } from "@constl/ipa";
 import { constellation, attente } from "@constl/utils-tests";
 import {
   கிளிமூக்கு,
@@ -18,7 +18,7 @@ const தயாரிப்பு = async ({
   விண்மீன்,
   மூல்_மொழிபெயர்ப்புகள்,
 }: {
-  விண்மீன்: ClientConstellation;
+  விண்மீன்: Constellation;
   மூல்_மொழிபெயர்ப்புகள்: மொழிபெயர்ப்பு_அகராதி_வகை;
 }) => {
   const குழு_அடையாளம் = await கிளிமூக்கு.உருவாக்கு({ விண்மீன் });
@@ -30,8 +30,8 @@ const தயாரிப்பு = async ({
 };
 
 describe("கிளிமூக்கு", async () => {
-  let விண்மீன்: ClientConstellation;
-  let வேறு_விண்மீன்: ClientConstellation;
+  let விண்மீன்: Constellation;
+  let வேறு_விண்மீன்: Constellation;
 
   const மறந்துவிடு: (() => Promise<void>)[] = [];
 

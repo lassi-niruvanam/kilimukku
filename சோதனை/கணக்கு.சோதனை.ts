@@ -1,4 +1,4 @@
-import { type ClientConstellation, créerConstellation } from "@constl/ipa";
+import { type Constellation, créerConstellation } from "@constl/ipa";
 
 import { expect } from "aegir/chai";
 
@@ -10,8 +10,8 @@ import { கணக்கு } from "@/கணக்கு.js";
 const { créerConstellationsTest } = constellation;
 
 describe("கணக்கு", async () => {
-  let விண்மீன்: ClientConstellation;
-  let வேறு_விண்மீன்: ClientConstellation;
+  let விண்மீன்: Constellation;
+  let வேறு_விண்மீன்: Constellation;
   let என்_கணக்கு: கணக்கு;
   let மற்றவரின்_கணக்கு: கணக்கு;
   let அடையாளம்: string;
