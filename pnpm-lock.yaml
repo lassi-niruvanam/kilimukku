@@ -18,8 +18,8 @@ importers:
         specifier: ^0.3.14
         version: 0.3.14(@constl/ipa@1.0.26(react-native@0.73.6(@babel/core@7.25.8)(@babel/preset-env@7.24.4(@babel/core@7.25.8))(react@18.2.0)))
       uuid:
-        specifier: ^9.0.1
-        version: 9.0.1
+        specifier: ^11.0.0
+        version: 11.0.0
       wherearewe:
         specifier: ^2.0.1
         version: 2.0.1
@@ -7666,6 +7666,10 @@ packages:
 
   uuid@10.0.0:
     resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
+    hasBin: true
+
+  uuid@11.0.0:
+    resolution: {integrity: sha512-iE8Fa5fgBY4rN5GvNUJ8TSwO1QG7TzdPfhrJczf6XJ6mZUxh/GX433N70fCiJL9h8EKP5ayEIo0Q6EBQGWHFqA==}
     hasBin: true
 
   uuid@8.3.2:
@@ -18284,6 +18288,8 @@ snapshots:
   utils-merge@1.0.1: {}
 
   uuid@10.0.0: {}
+
+  uuid@11.0.0: {}
 
   uuid@8.3.2: {}
 

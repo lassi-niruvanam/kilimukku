@@ -23,7 +23,7 @@
     "@constl/ipa": "^1.0.17",
     "@constl/utils-ipa": "^1.0.0",
     "@lassi-js/kili": "^0.3.14",
-    "uuid": "^9.0.1",
+    "uuid": "^11.0.0",
     "wherearewe": "^2.0.1"
   },
   "devDependencies": {
