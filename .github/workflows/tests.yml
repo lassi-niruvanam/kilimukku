@@ -31,7 +31,7 @@ jobs:
         run: pnpm சோதனை:உலாவி
 
       - name: Envoyer couverure à Codecov
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5
   kannu-sodanaikal:
     name: கிளிமூக்கு கணு சோதனைகள்
     runs-on: ubuntu-latest
@@ -56,4 +56,4 @@ jobs:
         run: pnpm சோதனை:கணு
 
       - name: Envoyer couverure à Codecov
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v5
