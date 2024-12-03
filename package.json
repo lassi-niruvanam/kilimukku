@@ -21,14 +21,14 @@
   "license": "AGPL-3.0-or-later",
   "type": "module",
   "dependencies": {
-    "@constl/ipa": "^1.4.7",
+    "@constl/ipa": "^1.5.0",
     "@constl/utils-ipa": "^1.0.4",
     "@lassi-js/kili": "^0.4.1",
     "uuid": "^11.0.3",
     "wherearewe": "^2.0.1"
   },
   "devDependencies": {
-    "@constl/utils-tests": "^1.6.5",
+    "@constl/utils-tests": "^1.6.7",
     "@eslint/js": "^9.15.0",
     "@types/mocha": "^10.0.10",
     "@types/uuid": "^10.0.0",
