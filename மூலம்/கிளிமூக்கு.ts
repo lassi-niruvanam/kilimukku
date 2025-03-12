@@ -47,7 +47,7 @@ export class கிளிமூக்கு {
     விண்மீன்?: Constellation;
     அடையாளம்?: string;
     மூல்_மொழி?: string;
-  }) {
+  } = {}) {
     this.தனித்துவமிக்க_அடையாளம் = uuidv4();
     if (அடையாளம்) {
       if (!விண்மீன்) throw new Error();
