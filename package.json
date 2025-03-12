@@ -1,6 +1,6 @@
 {
   "name": "@lassi-js/kilimukku",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "விநியோகிக்கப்பட்ட மொழிபெயர்ப்புகள்",
   "main": "விநியோகம்/குறியீட்டு.js",
   "scripts": {
@@ -21,14 +21,14 @@
   "license": "AGPL-3.0-or-later",
   "type": "module",
   "dependencies": {
-    "@constl/ipa": "^1.5.0",
-    "@constl/utils-ipa": "^1.0.4",
+    "@constl/ipa": "^1.6.1",
+    "@constl/utils-ipa": "^1.0.5",
     "@lassi-js/kili": "^0.4.1",
     "uuid": "^11.0.3",
     "wherearewe": "^2.0.1"
   },
   "devDependencies": {
-    "@constl/utils-tests": "^1.6.7",
+    "@constl/utils-tests": "^1.6.14",
     "@eslint/js": "^9.15.0",
     "@types/mocha": "^10.0.10",
     "@types/uuid": "^10.0.0",
@@ -48,5 +48,10 @@
     "typescript": "5.6.3",
     "typescript-eslint": "^8.16.0",
     "typescript-transform-paths": "^3.5.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@ipshipyard/node-datachannel"
+    ]
   }
 }
