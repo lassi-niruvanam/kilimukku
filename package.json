@@ -51,7 +51,10 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "@ipshipyard/node-datachannel"
+      "@ipshipyard/node-datachannel",
+      "classic-level",
+      "esbuild",
+      "iso-constants"
     ]
   }
 }
