@@ -22,7 +22,7 @@
   "type": "module",
   "dependencies": {
     "@constl/ipa": "^1.6.2",
-    "@constl/utils-ipa": "^1.0.5",
+    "@constl/utils-ipa": "^2.0.0",
     "@lassi-js/kili": "^0.4.2",
     "uuid": "^11.1.0",
     "wherearewe": "^2.0.1"
