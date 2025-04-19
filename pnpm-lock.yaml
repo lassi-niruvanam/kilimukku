@@ -13,7 +13,7 @@ importers:
         version: 1.6.9(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(react@19.0.0))
       '@constl/utils-ipa':
         specifier: ^2.0.0
-        version: 2.0.1
+        version: 2.0.2
       '@lassi-js/kili':
         specifier: ^0.4.2
         version: 0.4.3
@@ -923,8 +923,8 @@ packages:
   '@constl/mandataire@3.0.3':
     resolution: {integrity: sha512-J7zWtq2EOA46EIzAGjiOP/FVYvQrjvxXT7aLyKEA6chm6i/3kJnmv5pgYSF0rofGgzIyRUwsTLuzSB23DoZNyg==}
 
-  '@constl/utils-ipa@2.0.1':
-    resolution: {integrity: sha512-KFIw7bZ8Bxs/vkmLa64u7MZIJFPVk1iNJ/WdwvbvvFrWcAggfuajeZrJrdVGmAPJipdbJ1CKl7AuKd3tXD1wsg==}
+  '@constl/utils-ipa@2.0.2':
+    resolution: {integrity: sha512-HQoja5GWUIrpXgUfHSTzu6lDNmYHd/rZvjpT05M0YBn/2Qe2n9+yUkgDmVbpi6zmZM/EQyvYYR3k1+scRYbewg==}
     engines: {node: '>=20'}
 
   '@constl/utils-tests@1.6.15':
@@ -9352,7 +9352,7 @@ snapshots:
       '@chriscdn/promise-semaphore': 2.0.10
       '@constl/bohr-db': 1.2.3(react-native@0.78.0(@babel/core@7.26.10)(@babel/preset-env@7.26.9(@babel/core@7.26.10))(react@19.0.0))
       '@constl/mandataire': 3.0.3
-      '@constl/utils-ipa': 2.0.1
+      '@constl/utils-ipa': 2.0.2
       '@helia/block-brokers': 4.1.0
       '@helia/unixfs': 4.0.3
       '@ipld/dag-cbor': 9.2.2
@@ -9438,9 +9438,8 @@ snapshots:
       events: 3.3.0
       uuid: 11.1.0
 
-  '@constl/utils-ipa@2.0.1':
+  '@constl/utils-ipa@2.0.2':
     dependencies:
-      '@chriscdn/promise-semaphore': 2.0.10
       browser-fs-access: 0.35.0
       deep-equal: 2.2.3
       events: 3.3.0
@@ -9448,7 +9447,9 @@ snapshots:
       geojson-validation: 1.0.2
       jszip: 3.10.1
       multiformats: 13.3.2
+      p-queue: 8.1.0
       rimraf: 6.0.1
+      tiny-typed-emitter: 2.1.0
       uint8arrays: 5.1.0
       wherearewe: 2.0.1
 
@@ -10319,7 +10320,7 @@ snapshots:
 
   '@lassi-js/kili@0.4.3':
     dependencies:
-      '@constl/utils-ipa': 2.0.1
+      '@constl/utils-ipa': 2.0.2
       '@orbitdb/core': 2.5.0
       deepcopy: 2.1.0
 
