@@ -21,33 +21,33 @@
   "license": "AGPL-3.0-or-later",
   "type": "module",
   "dependencies": {
-    "@constl/ipa": "^1.6.2",
-    "@constl/utils-ipa": "^2.0.0",
-    "@lassi-js/kili": "^0.4.2",
+    "@constl/ipa": "^1.6.17",
+    "@constl/utils-ipa": "^2.0.2",
+    "@lassi-js/kili": "^0.4.5",
     "uuid": "^11.1.0",
     "wherearewe": "^2.0.1"
   },
   "devDependencies": {
     "@constl/utils-tests": "^1.6.15",
-    "@eslint/js": "^9.22.0",
+    "@eslint/js": "^9.26.0",
     "@types/mocha": "^10.0.10",
     "@types/uuid": "^10.0.0",
-    "aegir": "^46.0.0",
+    "aegir": "^46.0.2",
     "browserify-fs": "^1.0.0",
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.1",
-    "eslint": "^9.22.0",
-    "eslint-config-prettier": "^10.0.0",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.5",
     "genversion": "^3.2.0",
-    "mocha": "^11.0.0",
+    "mocha": "^11.2.2",
     "os-browserify": "^0.3.0",
     "prettier": "^3.5.3",
     "process": "^0.11.10",
     "rimraf": "^6.0.1",
     "ts-patch": "^3.3.0",
     "typescript": "5.8.3",
-    "typescript-eslint": "^8.26.1",
-    "typescript-transform-paths": "^3.5.4"
+    "typescript-eslint": "^8.32.1",
+    "typescript-transform-paths": "^3.5.5"
   },
   "pnpm": {
     "onlyBuiltDependencies": [

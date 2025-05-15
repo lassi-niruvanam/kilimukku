@@ -4,7 +4,7 @@ import type { மொழிபெயர்ப்பு_அகராதி_வக�
 
 import { கிளிமூக்கு } from "./கிளிமூக்கு.js";
 import { கிளிமூக்கு_மூல்_கூட்ட_அடையாளம் } from "./மாறிலிகள்.js";
-import { suivreBdsDeFonctionListe } from "@constl/utils-ipa";
+import { suivreDeFonctionListe } from "@constl/utils-ipa";
 
 export class கணக்கு {
   _விண்மீன்?: Constellation;
@@ -74,29 +74,41 @@ export class கணக்கு {
   }: {
     செ: types.schémaFonctionSuivi<string[]>;
   }): Promise<types.schémaFonctionOublier> {
-    return await suivreBdsDeFonctionListe({
-      fListe: async (fSuivreRacine: types.schémaFonctionSuivi<string[]>) => {
+    return await suivreDeFonctionListe({
+      fListe: async ({
+        fSuivreRacine,
+      }: {
+        fSuivreRacine: types.schémaFonctionSuivi<string[]>;
+      }) => {
         return await this.விண்மீன்.bds.suivreBds({
           f: fSuivreRacine,
         });
       },
-      fBranche: async (
-        idBd: string,
-        fSuivreBrancheBds: types.schémaFonctionSuivi<string[]>,
-      ) => {
-        return await suivreBdsDeFonctionListe({
-          fListe: async (
-            fSuivreRacine: types.schémaFonctionSuivi<string[]>,
-          ) => {
+      fBranche: async ({
+        id: idBd,
+        fSuivreBranche: fSuivreBrancheBds,
+      }: {
+        id: string;
+        fSuivreBranche: types.schémaFonctionSuivi<string[]>;
+      }) => {
+        return await suivreDeFonctionListe({
+          fListe: async ({
+            fSuivreRacine,
+          }: {
+            fSuivreRacine: types.schémaFonctionSuivi<string[]>;
+          }) => {
             return await this.விண்மீன்.bds.suivreNuéesBd({
               idBd,
               f: fSuivreRacine,
             });
           },
-          fBranche: async (
-            idNuée: string,
-            fSuivreBranche: types.schémaFonctionSuivi<string | undefined>,
-          ) => {
+          fBranche: async ({
+            id: idNuée,
+            fSuivreBranche,
+          }: {
+            id: string;
+            fSuivreBranche: types.schémaFonctionSuivi<string | undefined>;
+          }) => {
             return await this.விண்மீன்.nuées.suivreNuéesParents({
               idNuée,
               f: async (parents) =>
