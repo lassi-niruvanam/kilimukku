@@ -32,7 +32,7 @@
     "@eslint/js": "^9.26.0",
     "@types/mocha": "^10.0.10",
     "@types/uuid": "^10.0.0",
-    "aegir": "^46.0.2",
+    "aegir": "^47.0.0",
     "browserify-fs": "^1.0.0",
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.1",
