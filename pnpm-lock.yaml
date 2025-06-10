@@ -13,7 +13,7 @@ importers:
         version: 1.6.23(react-native@0.78.0(@babel/core@7.27.1)(@babel/preset-env@7.26.9(@babel/core@7.27.1))(react@19.0.0))
       '@constl/utils-ipa':
         specifier: ^2.0.2
-        version: 2.0.9
+        version: 2.0.10
       '@lassi-js/kili':
         specifier: ^0.4.5
         version: 0.4.5
@@ -914,8 +914,8 @@ packages:
   '@constl/mandataire@3.1.2':
     resolution: {integrity: sha512-L4N87H3ZQy8jYcZ2xxToER/VV2TPNVsbBfCFYtQvTKFHaFh/XGXXJrc0tW0Mr9CLHadaQdqQZvEfKughZmXK+Q==}
 
-  '@constl/utils-ipa@2.0.9':
-    resolution: {integrity: sha512-3ht7NJ5C2nHiPoU1oy0Osk2oQHdwVdBSYG3UXVfbN4k1tsWIzGJJKBsnnn0gTmqZavVttRwgcAM0gvdfdhbFIw==}
+  '@constl/utils-ipa@2.0.10':
+    resolution: {integrity: sha512-ypThNw7fa47lu5HSRkEL12nqKz1CjCFeY9ticpOaEBMbqXvpTVNw9044+fvgIaI/KsXWrDf8RQZvTwOU1zz5yw==}
     engines: {node: '>=20'}
 
   '@constl/utils-tests@1.6.15':
@@ -2283,8 +2283,8 @@ packages:
   '@types/node@22.15.24':
     resolution: {integrity: sha512-w9CZGm9RDjzTh/D+hFwlBJ3ziUaVw7oufKA3vOFSOZlzmW9AkZnfjPb+DLnrV6qtgL/LNmP0/2zBNCFHL3F0ng==}
 
-  '@types/node@22.15.30':
-    resolution: {integrity: sha512-6Q7lr06bEHdlfplU6YRbgG1SFBdlsfNC4/lX+SkhiTs0cpJkOElmWls8PxDFv4yY/xKb8Y6SO0OmSX4wgqTZbA==}
+  '@types/node@24.0.0':
+    resolution: {integrity: sha512-yZQa2zm87aRVcqDyH5+4Hv9KYgSdgwX1rFnGvpbzMaC7YAljmhBET93TPiTd3ObwTL+gSpIzPKg5BqVxdCvxKg==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -6016,6 +6016,9 @@ packages:
   multiformats@13.3.6:
     resolution: {integrity: sha512-yakbt9cPYj8d3vi/8o/XWm61MrOILo7fsTL0qxNx6zS0Nso6K5JqqS2WV7vK/KSuDBvrW3KfCwAdAgarAgOmww==}
 
+  multiformats@13.3.7:
+    resolution: {integrity: sha512-meL9DERHj+fFVWoOX9fXqfcYcSpUfSYJPcFvDPKrxitICbwAoWR+Ut4j5NO9zAT917HUHLQmqzQbAsGNHlDcxQ==}
+
   multimatch@5.0.0:
     resolution: {integrity: sha512-ypMKuglUrZUD99Tk2bUQ+xNQj43lPEfAeX2o9cTteAmShXy2VHDJpuwu1o0xqoKCt9jLVAvwyFKdLTPXKAfJyA==}
     engines: {node: '>=10'}
@@ -7860,6 +7863,9 @@ packages:
   undici-types@6.21.0:
     resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
+  undici-types@7.8.0:
+    resolution: {integrity: sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw==}
+
   undici@6.21.3:
     resolution: {integrity: sha512-gBLkYIlEnSp8pFbT64yFgGE6UIB9tAkhukC23PmMDCe5Nd+cRqKxSjw5y54MK2AZMgZfJWMaNE4nYUHgi1XEOw==}
     engines: {node: '>=18.17'}
@@ -9249,7 +9255,7 @@ snapshots:
       it-length-prefixed: 9.1.1
       it-pipe: 3.0.1
       it-pushable: 3.2.3
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       protons-runtime: 5.5.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -9334,7 +9340,7 @@ snapshots:
       '@chriscdn/promise-semaphore': 3.0.1
       '@constl/bohr-db': 1.2.3(react-native@0.78.0(@babel/core@7.27.1)(@babel/preset-env@7.26.9(@babel/core@7.27.1))(react@19.0.0))
       '@constl/mandataire': 3.1.2
-      '@constl/utils-ipa': 2.0.9
+      '@constl/utils-ipa': 2.0.10
       '@helia/block-brokers': 4.2.2
       '@helia/unixfs': 4.0.3
       '@ipld/dag-cbor': 9.2.4
@@ -9421,7 +9427,7 @@ snapshots:
       tiny-typed-emitter: 2.1.0
       uuid: 11.1.0
 
-  '@constl/utils-ipa@2.0.9':
+  '@constl/utils-ipa@2.0.10':
     dependencies:
       browser-fs-access: 0.37.0
       deep-equal: 2.2.3
@@ -9938,7 +9944,7 @@ snapshots:
       it-map: 3.1.3
       it-pipe: 3.0.1
       it-take: 3.0.8
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-defer: 4.0.1
       progress-events: 1.0.1
       protons-runtime: 5.5.0
@@ -9985,7 +9991,7 @@ snapshots:
       '@multiformats/multiaddr-to-uri': 11.0.0
       interface-blockstore: 5.3.1
       interface-store: 6.0.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       progress-events: 1.0.1
 
   '@helia/block-brokers@4.2.2':
@@ -10015,7 +10021,7 @@ snapshots:
       it-first: 3.0.8
       it-map: 3.1.3
       it-ndjson: 1.1.3
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-defer: 4.0.1
       p-queue: 8.1.0
       uint8arrays: 5.1.0
@@ -10028,7 +10034,7 @@ snapshots:
       interface-blockstore: 5.3.1
       interface-datastore: 8.3.2
       interface-store: 6.0.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       progress-events: 1.0.1
 
   '@helia/interface@5.3.2':
@@ -10052,7 +10058,7 @@ snapshots:
       ipns: 10.0.2
       it-first: 3.0.8
       it-map: 3.1.3
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       uint8arrays: 5.1.0
 
   '@helia/routers@3.1.2':
@@ -10115,7 +10121,7 @@ snapshots:
       it-foreach: 2.1.3
       it-merge: 3.0.11
       mortice: 3.1.0
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-defer: 4.0.1
       progress-events: 1.0.1
       uint8arrays: 5.1.0
@@ -10170,7 +10176,7 @@ snapshots:
   '@ipld/dag-json@10.2.4':
     dependencies:
       cborg: 4.2.11
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   '@ipld/dag-json@10.2.5':
     dependencies:
@@ -10197,7 +10203,7 @@ snapshots:
       any-signal: 4.1.1
       delay: 6.0.0
       interface-datastore: 8.3.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       uint8arrays: 5.1.0
     transitivePeerDependencies:
       - supports-color
@@ -10235,14 +10241,14 @@ snapshots:
     dependencies:
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 22.15.30
+      '@types/node': 24.0.0
       jest-mock: 29.7.0
 
   '@jest/fake-timers@29.7.0':
     dependencies:
       '@jest/types': 29.6.3
       '@sinonjs/fake-timers': 10.3.0
-      '@types/node': 22.15.30
+      '@types/node': 24.0.0
       jest-message-util: 29.7.0
       jest-mock: 29.7.0
       jest-util: 29.7.0
@@ -10276,7 +10282,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 22.15.30
+      '@types/node': 24.0.0
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
@@ -10309,7 +10315,7 @@ snapshots:
 
   '@lassi-js/kili@0.4.5':
     dependencies:
-      '@constl/utils-ipa': 2.0.9
+      '@constl/utils-ipa': 2.0.10
       '@orbitdb/core': 2.5.0
       deepcopy: 2.1.0
 
@@ -10380,7 +10386,7 @@ snapshots:
       '@libp2p/interface': 2.9.0
       '@noble/curves': 1.9.1
       '@noble/hashes': 1.8.0
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       protons-runtime: 5.5.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -10390,7 +10396,7 @@ snapshots:
       '@libp2p/interface': 2.10.2
       '@noble/curves': 1.9.1
       '@noble/hashes': 1.8.0
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       protons-runtime: 5.5.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -10504,7 +10510,7 @@ snapshots:
       '@multiformats/multiaddr': 12.4.0
       it-pushable: 3.2.3
       it-stream-types: 2.0.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       progress-events: 1.0.1
       uint8arraylist: 2.4.8
 
@@ -10586,7 +10592,7 @@ snapshots:
       asn1js: 3.0.6
       interface-datastore: 8.3.1
       merge-options: 3.0.4
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       sanitize-filename: 1.6.3
       uint8arrays: 5.1.0
 
@@ -10617,7 +10623,7 @@ snapshots:
       '@libp2p/interface': 2.10.2
       '@multiformats/multiaddr': 12.4.0
       interface-datastore: 8.3.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       weald: 1.0.4
 
   '@libp2p/logger@5.1.18':
@@ -10690,7 +10696,7 @@ snapshots:
       '@libp2p/interface': 2.9.0
       '@libp2p/peer-id': 5.1.2
       '@libp2p/utils': 6.6.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   '@libp2p/peer-collections@6.0.30':
     dependencies:
@@ -10703,7 +10709,7 @@ snapshots:
     dependencies:
       '@libp2p/crypto': 5.1.1
       '@libp2p/interface': 2.9.0
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       uint8arrays: 5.1.0
 
   '@libp2p/peer-id@5.1.5':
@@ -10736,7 +10742,7 @@ snapshots:
       interface-datastore: 8.3.1
       it-all: 3.0.8
       mortice: 3.1.0
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       protons-runtime: 5.5.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -10787,7 +10793,7 @@ snapshots:
       it-length-prefixed: 10.0.1
       it-pipe: 3.0.1
       it-pushable: 3.2.3
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-queue: 8.1.0
       uint8arraylist: 2.4.8
       uint8arrays: 5.1.0
@@ -10943,7 +10949,7 @@ snapshots:
       it-protobuf-stream: 2.0.2
       it-pushable: 3.2.3
       it-stream-types: 2.0.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-defer: 4.0.1
       p-timeout: 6.1.4
       p-wait-for: 5.0.2
@@ -11060,7 +11066,7 @@ snapshots:
       '@chainsafe/is-ip': 2.1.0
       '@chainsafe/netmask': 2.0.0
       '@multiformats/dns': 1.0.6
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       uint8-varint: 2.0.4
       uint8arrays: 5.1.0
 
@@ -11691,7 +11697,7 @@ snapshots:
 
   '@types/graceful-fs@4.1.9':
     dependencies:
-      '@types/node': 22.15.30
+      '@types/node': 24.0.0
 
   '@types/hast@3.0.4':
     dependencies:
@@ -11732,7 +11738,7 @@ snapshots:
 
   '@types/node-forge@1.3.11':
     dependencies:
-      '@types/node': 22.15.30
+      '@types/node': 24.0.0
 
   '@types/node@22.15.21':
     dependencies:
@@ -11742,9 +11748,9 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/node@22.15.30':
+  '@types/node@24.0.0':
     dependencies:
-      undici-types: 6.21.0
+      undici-types: 7.8.0
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -12094,7 +12100,7 @@ snapshots:
       esbuild: 0.25.4
       eslint: 9.28.0
       eslint-formatter-unix: 8.40.0
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)
       eslint-plugin-jsdoc: 50.6.17(eslint@9.28.0)
       eslint-plugin-no-only-tests: 3.3.0
       execa: 9.5.3
@@ -12121,7 +12127,7 @@ snapshots:
       micromark-extension-gfm-table: 2.1.1
       micromark-extension-gfm-task-list-item: 2.1.0
       mocha: 11.6.0
-      neostandard: 0.12.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0)(typescript@5.8.3)
+      neostandard: 0.12.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0)(typescript@5.8.3)
       npm-package-json-lint: 8.0.0(typescript@5.8.3)
       nyc: 17.1.0
       p-map: 7.0.3
@@ -12523,7 +12529,7 @@ snapshots:
       it-filter: 3.1.3
       it-merge: 3.0.11
       it-pushable: 3.2.3
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   blockstore-core@5.0.4:
     dependencies:
@@ -12560,7 +12566,7 @@ snapshots:
       interface-blockstore: 5.3.1
       interface-store: 6.0.2
       level: 8.0.1
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   bn.js@4.12.2: {}
 
@@ -12854,7 +12860,7 @@ snapshots:
 
   chrome-launcher@0.15.2:
     dependencies:
-      '@types/node': 22.15.30
+      '@types/node': 24.0.0
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -12863,7 +12869,7 @@ snapshots:
 
   chromium-edge-launcher@0.2.0:
     dependencies:
-      '@types/node': 22.15.30
+      '@types/node': 24.0.0
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -13853,7 +13859,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import-x@4.13.3(eslint@9.28.0)(typescript@5.8.3))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0):
+  eslint-import-resolver-typescript@3.10.1(eslint-plugin-import-x@4.13.3(eslint@9.28.0)(typescript@5.8.3))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0):
     dependencies:
       '@nolyfill/is-core-module': 1.0.39
       debug: 4.4.1(supports-color@8.1.1)
@@ -13864,7 +13870,7 @@ snapshots:
       tinyglobby: 0.2.14
       unrs-resolver: 1.7.2
     optionalDependencies:
-      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)
+      eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0)
       eslint-plugin-import-x: 4.13.3(eslint@9.28.0)(typescript@5.8.3)
     transitivePeerDependencies:
       - supports-color
@@ -13904,7 +13910,7 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0):
+  eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.8
@@ -13927,7 +13933,7 @@ snapshots:
       string.prototype.trimend: 1.0.9
       tsconfig-paths: 3.15.0
     optionalDependencies:
-      '@typescript-eslint/parser': 8.32.1(eslint@9.28.0)(typescript@5.8.3)
+      '@typescript-eslint/parser': 8.34.0(eslint@9.28.0)(typescript@5.8.3)
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
@@ -14706,7 +14712,7 @@ snapshots:
       interface-datastore: 8.3.1
       ipns: 10.0.2
       libp2p: 2.8.5
-      multiformats: 13.3.6
+      multiformats: 13.3.7
     transitivePeerDependencies:
       - bufferutil
       - react-native
@@ -14905,7 +14911,7 @@ snapshots:
   interface-blockstore@5.3.1:
     dependencies:
       interface-store: 6.0.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
 
   interface-blockstore@5.3.2:
     dependencies:
@@ -14995,7 +15001,7 @@ snapshots:
       '@libp2p/logger': 5.1.18
       cborg: 4.2.11
       interface-datastore: 8.3.2
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       protons-runtime: 5.5.0
       timestamp-nano: 1.0.1
       uint8arraylist: 2.4.8
@@ -15488,7 +15494,7 @@ snapshots:
       '@jest/environment': 29.7.0
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 22.15.30
+      '@types/node': 24.0.0
       jest-mock: 29.7.0
       jest-util: 29.7.0
 
@@ -15498,7 +15504,7 @@ snapshots:
     dependencies:
       '@jest/types': 29.6.3
       '@types/graceful-fs': 4.1.9
-      '@types/node': 22.15.30
+      '@types/node': 24.0.0
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
@@ -15525,7 +15531,7 @@ snapshots:
   jest-mock@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 22.15.30
+      '@types/node': 24.0.0
       jest-util: 29.7.0
 
   jest-regex-util@29.6.3: {}
@@ -15533,7 +15539,7 @@ snapshots:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 22.15.30
+      '@types/node': 24.0.0
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -15550,7 +15556,7 @@ snapshots:
 
   jest-worker@29.7.0:
     dependencies:
-      '@types/node': 22.15.30
+      '@types/node': 24.0.0
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -15763,7 +15769,7 @@ snapshots:
       it-merge: 3.0.11
       it-parallel: 3.0.11
       merge-options: 3.0.4
-      multiformats: 13.3.6
+      multiformats: 13.3.7
       p-defer: 4.0.1
       p-retry: 6.2.1
       progress-events: 1.0.1
@@ -16705,6 +16711,8 @@ snapshots:
 
   multiformats@13.3.6: {}
 
+  multiformats@13.3.7: {}
+
   multimatch@5.0.0:
     dependencies:
       '@types/minimatch': 3.0.5
@@ -16739,12 +16747,12 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  neostandard@0.12.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0)(typescript@5.8.3):
+  neostandard@0.12.1(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0)(typescript@5.8.3):
     dependencies:
       '@humanwhocodes/gitignore-to-minimatch': 1.0.2
       '@stylistic/eslint-plugin': 2.11.0(eslint@9.28.0)(typescript@5.8.3)
       eslint: 9.28.0
-      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import-x@4.13.3(eslint@9.28.0)(typescript@5.8.3))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.34.0(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0)
+      eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import-x@4.13.3(eslint@9.28.0)(typescript@5.8.3))(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.32.1(eslint@9.28.0)(typescript@5.8.3))(eslint@9.28.0))(eslint@9.28.0)
       eslint-plugin-import-x: 4.13.3(eslint@9.28.0)(typescript@5.8.3)
       eslint-plugin-n: 17.18.0(eslint@9.28.0)
       eslint-plugin-promise: 7.2.1(eslint@9.28.0)
@@ -18760,6 +18768,8 @@ snapshots:
       which-boxed-primitive: 1.1.1
 
   undici-types@6.21.0: {}
+
+  undici-types@7.8.0: {}
 
   undici@6.21.3: {}
 
