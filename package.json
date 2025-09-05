@@ -24,7 +24,7 @@
     "@constl/ipa": "^1.6.17",
     "@constl/utils-ipa": "^2.0.2",
     "@lassi-js/kili": "^0.4.5",
-    "uuid": "^11.1.0",
+    "uuid": "^12.0.0",
     "wherearewe": "^2.0.1"
   },
   "devDependencies": {
