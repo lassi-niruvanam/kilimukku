@@ -22,13 +22,13 @@
   "type": "module",
   "dependencies": {
     "@constl/ipa": "^1.6.17",
-    "@constl/utils-ipa": "^2.0.2",
+    "@constl/utils-ipa": "^3.0.0",
     "@lassi-js/kili": "^0.4.5",
     "uuid": "^11.1.0",
     "wherearewe": "^2.0.1"
   },
   "devDependencies": {
-    "@constl/utils-tests": "^1.6.15",
+    "@constl/utils-tests": "^2.0.0",
     "@eslint/js": "^10.0.0",
     "@types/mocha": "^10.0.10",
     "@types/uuid": "^11.0.0",
