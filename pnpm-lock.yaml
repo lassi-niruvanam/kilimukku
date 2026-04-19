@@ -18,8 +18,8 @@ importers:
         specifier: ^0.4.5
         version: 0.4.5
       uuid:
-        specifier: ^11.1.0
-        version: 11.1.0
+        specifier: ^14.0.0
+        version: 14.0.0
       wherearewe:
         specifier: ^2.0.1
         version: 2.0.1
@@ -8553,6 +8553,10 @@ packages:
     resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
     hasBin: true
 
+  uuid@14.0.0:
+    resolution: {integrity: sha512-Qo+uWgilfSmAhXCMav1uYFynlQO7fMFiMVZsQqZRMIXp0O7rR7qjkj+cPvBHLgBqi960QCoo/PH2/6ZtVqKvrg==}
+    hasBin: true
+
   uuid@8.0.0:
     resolution: {integrity: sha512-jOXGuXZAWdsTH7eZLtyXMqUb9EcWMGZNbL9YcGBJl4MH4nrxHmZJhEHvyLFrkxo+28uLb/NYRcStH48fnD0Vzw==}
     hasBin: true
@@ -12941,7 +12945,7 @@ snapshots:
 
   '@types/uuid@11.0.0':
     dependencies:
-      uuid: 11.1.0
+      uuid: 14.0.0
 
   '@types/ws@8.18.1':
     dependencies:
@@ -20527,6 +20531,8 @@ snapshots:
   utils-merge@1.0.1: {}
 
   uuid@11.1.0: {}
+
+  uuid@14.0.0: {}
 
   uuid@8.0.0: {}
 
