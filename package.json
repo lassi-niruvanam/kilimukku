@@ -47,7 +47,7 @@
     "ts-patch": "^3.3.0",
     "typescript": "5.9.3",
     "typescript-eslint": "^8.32.1",
-    "typescript-transform-paths": "^3.5.5"
+    "typescript-transform-paths": "^4.0.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
